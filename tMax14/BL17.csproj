@@ -94,7 +94,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
-    <ApplicationIcon>animals-doves_of_peace.ico</ApplicationIcon>
+    <ApplicationIcon>animals-blowfish.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -2560,6 +2560,7 @@
     </PublishFile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="animals-blowfish.ico" />
     <Content Include="animals-doves_of_peace.ico" />
     <None Include="Resources\BrcIcon.ico" />
     <None Include="Resources\BrcIcon.bmp" />
