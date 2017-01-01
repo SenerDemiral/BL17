@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL17", "tMax14\BL17.csproj", "{80891F9C-2D38-490E-B920-2064362E61A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13D4DE43-A926-4C29-9410-02221735767A} = {13D4DE43-A926-4C29-9410-02221735767A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tMax14ReportClassLibrary", "tMax14ReportClassLibrary\tMax14ReportClassLibrary.csproj", "{13D4DE43-A926-4C29-9410-02221735767A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80891F9C-2D38-490E-B920-2064362E61A5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{80891F9C-2D38-490E-B920-2064362E61A5}.Debug|Any CPU.Build.0 = Debug|x86
+		{80891F9C-2D38-490E-B920-2064362E61A5}.Debug|Any CPU.Deploy.0 = Debug|x86
+		{80891F9C-2D38-490E-B920-2064362E61A5}.Release|Any CPU.ActiveCfg = Release|x86
+		{80891F9C-2D38-490E-B920-2064362E61A5}.Release|Any CPU.Build.0 = Release|x86
+		{80891F9C-2D38-490E-B920-2064362E61A5}.Release|Any CPU.Deploy.0 = Release|x86
+		{13D4DE43-A926-4C29-9410-02221735767A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{13D4DE43-A926-4C29-9410-02221735767A}.Debug|Any CPU.Build.0 = Debug|x86
+		{13D4DE43-A926-4C29-9410-02221735767A}.Release|Any CPU.ActiveCfg = Release|x86
+		{13D4DE43-A926-4C29-9410-02221735767A}.Release|Any CPU.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
