@@ -13,7 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>C:\MyPublish\BFL17\</PublishUrl>
+    <PublishUrl>C:\MyPublish\BL17\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -23,12 +23,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
-    <UpdateUrl>\\192.168.1.245\tMax14\tMax14Programs\tMax14\</UpdateUrl>
+    <UpdateUrl>\\90.158.105.121\Programs\</UpdateUrl>
     <ProductName>Biopharma Logistics</ProductName>
     <PublisherName>Şener DEMİRAL</PublisherName>
     <SuiteName>BL17</SuiteName>
-    <MinimumRequiredVersion>3.0.0.0</MinimumRequiredVersion>
-    <ApplicationRevision>0</ApplicationRevision>
+    <MinimumRequiredVersion>3.0.0.2</MinimumRequiredVersion>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
