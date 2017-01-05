@@ -26,19 +26,8 @@ namespace BL17.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("character set=WIN1254;data source=192.168.1.245;initial catalog=tMax06;user id=sy" +
-            "sdba;password=masterkey;connectiontimeout=30")]
-        public string tMax06ConnectionString {
-            get {
-                return ((string)(this["tMax06ConnectionString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("character set=WIN1254;data source=90.158.105.121;user id=sysdba;password=masterke" +
-            "y;initial catalog=BL17doc;connectionlifetime=30;pooling=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("character set=WIN1254;data source=192.168.1.240;user id=sysdba;password=masterkey" +
+            ";initial catalog=BL17doc;connectionlifetime=30;pooling=True")]
         public string ConnectionStringDoc {
             get {
                 return ((string)(this["ConnectionStringDoc"]));
@@ -48,11 +37,20 @@ namespace BL17.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("character set=WIN1254;data source=90.158.105.121;initial catalog=BL17;user id=sys" +
-            "dba;password=masterkey;pooling=True;connectionlifetime=30")]
+        [global::System.Configuration.DefaultSettingValueAttribute("character set=WIN1254;data source=192.168.1.240;initial catalog=BL17;user id=sysd" +
+            "ba;password=masterkey;pooling=True;connectionlifetime=30")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        public string tMax06ConnectionString {
+            get {
+                return ((string)(this["tMax06ConnectionString"]));
             }
         }
     }

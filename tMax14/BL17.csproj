@@ -23,12 +23,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
-    <UpdateUrl>\\90.158.105.121\Programs\</UpdateUrl>
+    <UpdateUrl>\\192.168.1.240\Programs\BL17\</UpdateUrl>
     <ProductName>Biopharma Logistics</ProductName>
     <PublisherName>Şener DEMİRAL</PublisherName>
     <SuiteName>BL17</SuiteName>
-    <MinimumRequiredVersion>3.0.0.2</MinimumRequiredVersion>
-    <ApplicationRevision>3</ApplicationRevision>
+    <MinimumRequiredVersion>3.0.0.5</MinimumRequiredVersion>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -546,12 +546,6 @@
     <Compile Include="Account\OdemeEmriXF.Designer.cs">
       <DependentUpon>OdemeEmriXF.cs</DependentUpon>
     </Compile>
-    <Compile Include="ButceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ButceForm.Designer.cs">
-      <DependentUpon>ButceForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Doc\DocDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -568,12 +562,6 @@
     </Compile>
     <Compile Include="Doc\selDetXF.Designer.cs">
       <DependentUpon>selDetXF.cs</DependentUpon>
-    </Compile>
-    <Compile Include="eskiYerTanimlariXF.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="eskiYerTanimlariXF.Designer.cs">
-      <DependentUpon>eskiYerTanimlariXF.cs</DependentUpon>
     </Compile>
     <Compile Include="Firma\AnlasmaOdemeXR.cs">
       <SubType>Component</SubType>
@@ -1487,17 +1475,11 @@
     <EmbeddedResource Include="Account\OdemeEmriXF.resx">
       <DependentUpon>OdemeEmriXF.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ButceForm.resx">
-      <DependentUpon>ButceForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Doc\DocXF.resx">
       <DependentUpon>DocXF.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Doc\selDetXF.resx">
       <DependentUpon>selDetXF.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="eskiYerTanimlariXF.resx">
-      <DependentUpon>eskiYerTanimlariXF.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Firma\AnlasmaOdemeXR.resx">
       <DependentUpon>AnlasmaOdemeXR.cs</DependentUpon>
@@ -1887,7 +1869,6 @@
     <None Include="Account\AccountDataSet.xss">
       <DependentUpon>AccountDataSet.xsd</DependentUpon>
     </None>
-    <None Include="BFL17_TemporaryKey.pfx" />
     <None Include="Doc\DocDataSet.xsc">
       <DependentUpon>DocDataSet.xsd</DependentUpon>
     </None>
