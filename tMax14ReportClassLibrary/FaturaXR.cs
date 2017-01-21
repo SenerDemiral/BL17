@@ -42,9 +42,10 @@ namespace tMax14ReportClassLibrary
             string drm = reportDataSet.RPR_FATURA[0].DRM;
             string eFtr = reportDataSet.RPR_FATURA[0].EFTR;
 
-            antetli.Value = false;
+            // Rapor BosKagida basilacak sekilde ayarli 
+			antetli.Value = false;	// Faturaya bas
             if (Antet == "Antetli")
-                antetli.Value = true;
+                antetli.Value = true;	// BosKagida bas
             
             Watermark.Text = "";
             if (drm == "A")
@@ -61,7 +62,7 @@ namespace tMax14ReportClassLibrary
             eMails = reportDataSet.RPR_FATURA.Rows[0]["EMAILS"].ToString();
             eMailSubject = reportDataSet.RPR_FATURA.Rows[0]["EMAILSUBJECT"].ToString();
             eMailBody = reportDataSet.RPR_FATURA.Rows[0]["EMAILBODY"].ToString();
-
+			/*
             if (Antet != "Antetli" && SMTP.FIRMA == "TUNASET")
             {
                 TopMargin.HeightF = 50F; // 150F;
@@ -72,7 +73,7 @@ namespace tMax14ReportClassLibrary
                 xrLabelTrh.LocationF = new PointF(1589.93F, 710F);//855,915,     1589
                 xrLabelRef.LocationF = new PointF(1589.93F, 775F);//915,975
             }
-
+			*/
             xrLabel53.Visible = !AllIn;
             xrLabel55.Visible = !AllIn;
             xrLine1.Visible = !AllIn;
@@ -80,7 +81,16 @@ namespace tMax14ReportClassLibrary
 
             xrLabelAll_In.Visible = AllIn;
 
-        }
+			//Faturaya basiliyorsa
+			if(Antet != "Antetli") {
+				PageFooter.Visible = false;
+				Detail.HeightF = 1100F;
+				xrLabelTrh.LocationF = new PointF(1300F, 830F);
+				xrLabelRef.LocationF = new PointF(1300F, 880F);
+			}
+
+
+		}
 
     }
 }

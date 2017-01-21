@@ -4753,21 +4753,45 @@ namespace tMax14ReportClassLibrary {
             
             private global::System.Data.DataColumn columnHID;
             
+            private global::System.Data.DataColumn columnOPSKIM;
+            
+            private global::System.Data.DataColumn columnTOAD;
+            
             private global::System.Data.DataColumn columnHREFNO;
             
-            private global::System.Data.DataColumn columnHSPR;
+            private global::System.Data.DataColumn columnHSHP;
             
             private global::System.Data.DataColumn columnHCNE;
             
+            private global::System.Data.DataColumn columnHDLV;
+            
             private global::System.Data.DataColumn columnHPOD;
             
+            private global::System.Data.DataColumn columnHDTM;
+            
             private global::System.Data.DataColumn columnHPODINF;
+            
+            private global::System.Data.DataColumn columnHAOH;
+            
+            private global::System.Data.DataColumn columnHGODINF;
+            
+            private global::System.Data.DataColumn columnHTOPS;
+            
+            private global::System.Data.DataColumn columnHTOS;
+            
+            private global::System.Data.DataColumn columnB_PRTNO;
+            
+            private global::System.Data.DataColumn columnB_SITENO;
+            
+            private global::System.Data.DataColumn columnB_CCC;
             
             private global::System.Data.DataColumn columnMID;
             
             private global::System.Data.DataColumn columnMREFNO;
             
             private global::System.Data.DataColumn columnMATA;
+            
+            private global::System.Data.DataColumn columnCNTNOS;
             
             private global::System.Data.DataColumn columnEMAILS;
             
@@ -4784,22 +4808,6 @@ namespace tMax14ReportClassLibrary {
             private global::System.Data.DataColumn columnLEFTIMAGE;
             
             private global::System.Data.DataColumn columnRIGHTIMAGE;
-            
-            private global::System.Data.DataColumn columnOPSKIM;
-            
-            private global::System.Data.DataColumn columnHSHP;
-            
-            private global::System.Data.DataColumn columnTOAD;
-            
-            private global::System.Data.DataColumn columnHDLV;
-            
-            private global::System.Data.DataColumn columnHAOH;
-            
-            private global::System.Data.DataColumn columnHGODINF;
-            
-            private global::System.Data.DataColumn columnCNTNOS;
-            
-            private global::System.Data.DataColumn columnHDTM;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -4844,6 +4852,22 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn OPSKIMColumn {
+                get {
+                    return this.columnOPSKIM;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn TOADColumn {
+                get {
+                    return this.columnTOAD;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn HREFNOColumn {
                 get {
                     return this.columnHREFNO;
@@ -4852,9 +4876,9 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn HSPRColumn {
+            public global::System.Data.DataColumn HSHPColumn {
                 get {
-                    return this.columnHSPR;
+                    return this.columnHSHP;
                 }
             }
             
@@ -4868,6 +4892,14 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn HDLVColumn {
+                get {
+                    return this.columnHDLV;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn HPODColumn {
                 get {
                     return this.columnHPOD;
@@ -4876,9 +4908,73 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn HDTMColumn {
+                get {
+                    return this.columnHDTM;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn HPODINFColumn {
                 get {
                     return this.columnHPODINF;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn HAOHColumn {
+                get {
+                    return this.columnHAOH;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn HGODINFColumn {
+                get {
+                    return this.columnHGODINF;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn HTOPSColumn {
+                get {
+                    return this.columnHTOPS;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn HTOSColumn {
+                get {
+                    return this.columnHTOS;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn B_PRTNOColumn {
+                get {
+                    return this.columnB_PRTNO;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn B_SITENOColumn {
+                get {
+                    return this.columnB_SITENO;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn B_CCCColumn {
+                get {
+                    return this.columnB_CCC;
                 }
             }
             
@@ -4903,6 +4999,14 @@ namespace tMax14ReportClassLibrary {
             public global::System.Data.DataColumn MATAColumn {
                 get {
                     return this.columnMATA;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn CNTNOSColumn {
+                get {
+                    return this.columnCNTNOS;
                 }
             }
             
@@ -4972,70 +5076,6 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn OPSKIMColumn {
-                get {
-                    return this.columnOPSKIM;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn HSHPColumn {
-                get {
-                    return this.columnHSHP;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn TOADColumn {
-                get {
-                    return this.columnTOAD;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn HDLVColumn {
-                get {
-                    return this.columnHDLV;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn HAOHColumn {
-                get {
-                    return this.columnHAOH;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn HGODINFColumn {
-                get {
-                    return this.columnHGODINF;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn CNTNOSColumn {
-                get {
-                    return this.columnCNTNOS;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn HDTMColumn {
-                get {
-                    return this.columnHDTM;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -5073,14 +5113,26 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public RPR_PODRow AddRPR_PODRow(
                         int HID, 
+                        string OPSKIM, 
+                        string TOAD, 
                         string HREFNO, 
-                        string HSPR, 
+                        string HSHP, 
                         string HCNE, 
+                        string HDLV, 
                         System.DateTime HPOD, 
+                        string HDTM, 
                         string HPODINF, 
+                        System.DateTime HAOH, 
+                        string HGODINF, 
+                        string HTOPS, 
+                        string HTOS, 
+                        string B_PRTNO, 
+                        string B_SITENO, 
+                        string B_CCC, 
                         int MID, 
                         string MREFNO, 
                         System.DateTime MATA, 
+                        string CNTNOS, 
                         string EMAILS, 
                         string EMAILSUBJECT, 
                         string EMAILBODY, 
@@ -5088,26 +5140,30 @@ namespace tMax14ReportClassLibrary {
                         string ALTNOT, 
                         string FOOTER, 
                         byte[] LEFTIMAGE, 
-                        byte[] RIGHTIMAGE, 
-                        string OPSKIM, 
-                        string HSHP, 
-                        string TOAD, 
-                        string HDLV, 
-                        System.DateTime HAOH, 
-                        string HGODINF, 
-                        string CNTNOS, 
-                        string HDTM) {
+                        byte[] RIGHTIMAGE) {
                 RPR_PODRow rowRPR_PODRow = ((RPR_PODRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         HID,
+                        OPSKIM,
+                        TOAD,
                         HREFNO,
-                        HSPR,
+                        HSHP,
                         HCNE,
+                        HDLV,
                         HPOD,
+                        HDTM,
                         HPODINF,
+                        HAOH,
+                        HGODINF,
+                        HTOPS,
+                        HTOS,
+                        B_PRTNO,
+                        B_SITENO,
+                        B_CCC,
                         MID,
                         MREFNO,
                         MATA,
+                        CNTNOS,
                         EMAILS,
                         EMAILSUBJECT,
                         EMAILBODY,
@@ -5115,15 +5171,7 @@ namespace tMax14ReportClassLibrary {
                         ALTNOT,
                         FOOTER,
                         LEFTIMAGE,
-                        RIGHTIMAGE,
-                        OPSKIM,
-                        HSHP,
-                        TOAD,
-                        HDLV,
-                        HAOH,
-                        HGODINF,
-                        CNTNOS,
-                        HDTM};
+                        RIGHTIMAGE};
                 rowRPR_PODRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowRPR_PODRow);
                 return rowRPR_PODRow;
@@ -5147,14 +5195,26 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
                 this.columnHID = base.Columns["HID"];
+                this.columnOPSKIM = base.Columns["OPSKIM"];
+                this.columnTOAD = base.Columns["TOAD"];
                 this.columnHREFNO = base.Columns["HREFNO"];
-                this.columnHSPR = base.Columns["HSPR"];
+                this.columnHSHP = base.Columns["HSHP"];
                 this.columnHCNE = base.Columns["HCNE"];
+                this.columnHDLV = base.Columns["HDLV"];
                 this.columnHPOD = base.Columns["HPOD"];
+                this.columnHDTM = base.Columns["HDTM"];
                 this.columnHPODINF = base.Columns["HPODINF"];
+                this.columnHAOH = base.Columns["HAOH"];
+                this.columnHGODINF = base.Columns["HGODINF"];
+                this.columnHTOPS = base.Columns["HTOPS"];
+                this.columnHTOS = base.Columns["HTOS"];
+                this.columnB_PRTNO = base.Columns["B_PRTNO"];
+                this.columnB_SITENO = base.Columns["B_SITENO"];
+                this.columnB_CCC = base.Columns["B_CCC"];
                 this.columnMID = base.Columns["MID"];
                 this.columnMREFNO = base.Columns["MREFNO"];
                 this.columnMATA = base.Columns["MATA"];
+                this.columnCNTNOS = base.Columns["CNTNOS"];
                 this.columnEMAILS = base.Columns["EMAILS"];
                 this.columnEMAILSUBJECT = base.Columns["EMAILSUBJECT"];
                 this.columnEMAILBODY = base.Columns["EMAILBODY"];
@@ -5163,14 +5223,6 @@ namespace tMax14ReportClassLibrary {
                 this.columnFOOTER = base.Columns["FOOTER"];
                 this.columnLEFTIMAGE = base.Columns["LEFTIMAGE"];
                 this.columnRIGHTIMAGE = base.Columns["RIGHTIMAGE"];
-                this.columnOPSKIM = base.Columns["OPSKIM"];
-                this.columnHSHP = base.Columns["HSHP"];
-                this.columnTOAD = base.Columns["TOAD"];
-                this.columnHDLV = base.Columns["HDLV"];
-                this.columnHAOH = base.Columns["HAOH"];
-                this.columnHGODINF = base.Columns["HGODINF"];
-                this.columnCNTNOS = base.Columns["CNTNOS"];
-                this.columnHDTM = base.Columns["HDTM"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -5178,22 +5230,46 @@ namespace tMax14ReportClassLibrary {
             private void InitClass() {
                 this.columnHID = new global::System.Data.DataColumn("HID", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHID);
+                this.columnOPSKIM = new global::System.Data.DataColumn("OPSKIM", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOPSKIM);
+                this.columnTOAD = new global::System.Data.DataColumn("TOAD", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTOAD);
                 this.columnHREFNO = new global::System.Data.DataColumn("HREFNO", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHREFNO);
-                this.columnHSPR = new global::System.Data.DataColumn("HSPR", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnHSPR);
+                this.columnHSHP = new global::System.Data.DataColumn("HSHP", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHSHP);
                 this.columnHCNE = new global::System.Data.DataColumn("HCNE", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHCNE);
+                this.columnHDLV = new global::System.Data.DataColumn("HDLV", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHDLV);
                 this.columnHPOD = new global::System.Data.DataColumn("HPOD", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHPOD);
+                this.columnHDTM = new global::System.Data.DataColumn("HDTM", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHDTM);
                 this.columnHPODINF = new global::System.Data.DataColumn("HPODINF", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHPODINF);
+                this.columnHAOH = new global::System.Data.DataColumn("HAOH", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHAOH);
+                this.columnHGODINF = new global::System.Data.DataColumn("HGODINF", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHGODINF);
+                this.columnHTOPS = new global::System.Data.DataColumn("HTOPS", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHTOPS);
+                this.columnHTOS = new global::System.Data.DataColumn("HTOS", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHTOS);
+                this.columnB_PRTNO = new global::System.Data.DataColumn("B_PRTNO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnB_PRTNO);
+                this.columnB_SITENO = new global::System.Data.DataColumn("B_SITENO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnB_SITENO);
+                this.columnB_CCC = new global::System.Data.DataColumn("B_CCC", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnB_CCC);
                 this.columnMID = new global::System.Data.DataColumn("MID", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnMID);
                 this.columnMREFNO = new global::System.Data.DataColumn("MREFNO", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnMREFNO);
                 this.columnMATA = new global::System.Data.DataColumn("MATA", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnMATA);
+                this.columnCNTNOS = new global::System.Data.DataColumn("CNTNOS", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCNTNOS);
                 this.columnEMAILS = new global::System.Data.DataColumn("EMAILS", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnEMAILS);
                 this.columnEMAILSUBJECT = new global::System.Data.DataColumn("EMAILSUBJECT", typeof(string), null, global::System.Data.MappingType.Element);
@@ -5210,41 +5286,28 @@ namespace tMax14ReportClassLibrary {
                 base.Columns.Add(this.columnLEFTIMAGE);
                 this.columnRIGHTIMAGE = new global::System.Data.DataColumn("RIGHTIMAGE", typeof(byte[]), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnRIGHTIMAGE);
-                this.columnOPSKIM = new global::System.Data.DataColumn("OPSKIM", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnOPSKIM);
-                this.columnHSHP = new global::System.Data.DataColumn("HSHP", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnHSHP);
-                this.columnTOAD = new global::System.Data.DataColumn("TOAD", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnTOAD);
-                this.columnHDLV = new global::System.Data.DataColumn("HDLV", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnHDLV);
-                this.columnHAOH = new global::System.Data.DataColumn("HAOH", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnHAOH);
-                this.columnHGODINF = new global::System.Data.DataColumn("HGODINF", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnHGODINF);
-                this.columnCNTNOS = new global::System.Data.DataColumn("CNTNOS", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCNTNOS);
-                this.columnHDTM = new global::System.Data.DataColumn("HDTM", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnHDTM);
+                this.columnOPSKIM.MaxLength = 40;
+                this.columnTOAD.MaxLength = 100;
                 this.columnHREFNO.MaxLength = 40;
-                this.columnHSPR.Caption = "HSHP";
-                this.columnHSPR.MaxLength = 100;
+                this.columnHSHP.MaxLength = 100;
                 this.columnHCNE.MaxLength = 100;
+                this.columnHDLV.MaxLength = 2147483647;
+                this.columnHDTM.MaxLength = 80;
                 this.columnHPODINF.MaxLength = 40;
+                this.columnHGODINF.MaxLength = 2147483647;
+                this.columnHTOPS.MaxLength = 2147483647;
+                this.columnHTOS.MaxLength = 100;
+                this.columnB_PRTNO.MaxLength = 40;
+                this.columnB_SITENO.MaxLength = 40;
+                this.columnB_CCC.MaxLength = 40;
                 this.columnMREFNO.MaxLength = 40;
+                this.columnCNTNOS.MaxLength = 2147483647;
                 this.columnEMAILS.MaxLength = 2147483647;
                 this.columnEMAILSUBJECT.MaxLength = 80;
                 this.columnEMAILBODY.MaxLength = 2147483647;
                 this.columnUSTNOT.MaxLength = 2147483647;
                 this.columnALTNOT.MaxLength = 2147483647;
                 this.columnFOOTER.MaxLength = 2147483647;
-                this.columnOPSKIM.MaxLength = 40;
-                this.columnHSHP.MaxLength = 100;
-                this.columnTOAD.MaxLength = 100;
-                this.columnHDLV.MaxLength = 100;
-                this.columnHGODINF.MaxLength = 2147483647;
-                this.columnCNTNOS.MaxLength = 2147483647;
-                this.columnHDTM.MaxLength = 80;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -29706,17 +29769,35 @@ namespace tMax14ReportClassLibrary {
             
             private global::System.Data.DataColumn columnHID;
             
+            private global::System.Data.DataColumn columnHEXD;
+            
             private global::System.Data.DataColumn columnMID;
             
             private global::System.Data.DataColumn columnOPSKIM;
             
             private global::System.Data.DataColumn columnHSHP;
             
-            private global::System.Data.DataColumn columnHLUADR;
+            private global::System.Data.DataColumn columnHCNE;
             
             private global::System.Data.DataColumn columnEOH;
             
+            private global::System.Data.DataColumn columnCNTNO;
+            
             private global::System.Data.DataColumn columnDEPO;
+            
+            private global::System.Data.DataColumn columnTOPS;
+            
+            private global::System.Data.DataColumn columnTOS;
+            
+            private global::System.Data.DataColumn columnB_PRTNO;
+            
+            private global::System.Data.DataColumn columnB_SITENO;
+            
+            private global::System.Data.DataColumn columnB_CCC;
+            
+            private global::System.Data.DataColumn columnB_SNDINFO;
+            
+            private global::System.Data.DataColumn columnB_RCVINFO;
             
             private global::System.Data.DataColumn columnMPOL;
             
@@ -29735,8 +29816,6 @@ namespace tMax14ReportClassLibrary {
             private global::System.Data.DataColumn columnLEFTIMAGE;
             
             private global::System.Data.DataColumn columnRIGHTIMAGE;
-            
-            private global::System.Data.DataColumn columnCNTNO;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -29781,6 +29860,14 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn HEXDColumn {
+                get {
+                    return this.columnHEXD;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn MIDColumn {
                 get {
                     return this.columnMID;
@@ -29805,9 +29892,9 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn HLUADRColumn {
+            public global::System.Data.DataColumn HCNEColumn {
                 get {
-                    return this.columnHLUADR;
+                    return this.columnHCNE;
                 }
             }
             
@@ -29821,9 +29908,73 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn CNTNOColumn {
+                get {
+                    return this.columnCNTNO;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn DEPOColumn {
                 get {
                     return this.columnDEPO;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn TOPSColumn {
+                get {
+                    return this.columnTOPS;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn TOSColumn {
+                get {
+                    return this.columnTOS;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn B_PRTNOColumn {
+                get {
+                    return this.columnB_PRTNO;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn B_SITENOColumn {
+                get {
+                    return this.columnB_SITENO;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn B_CCCColumn {
+                get {
+                    return this.columnB_CCC;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn B_SNDINFOColumn {
+                get {
+                    return this.columnB_SNDINFO;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn B_RCVINFOColumn {
+                get {
+                    return this.columnB_RCVINFO;
                 }
             }
             
@@ -29901,14 +30052,6 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn CNTNOColumn {
-                get {
-                    return this.columnCNTNO;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -29946,12 +30089,21 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public RPR_INTRow AddRPR_INTRow(
                         int HID, 
+                        System.DateTime HEXD, 
                         int MID, 
                         string OPSKIM, 
                         string HSHP, 
-                        string HLUADR, 
+                        string HCNE, 
                         System.DateTime EOH, 
+                        string CNTNO, 
                         string DEPO, 
+                        string TOPS, 
+                        string TOS, 
+                        string B_PRTNO, 
+                        string B_SITENO, 
+                        string B_CCC, 
+                        string B_SNDINFO, 
+                        string B_RCVINFO, 
                         string MPOL, 
                         string EMAILS, 
                         string EMAILSUBJECT, 
@@ -29960,17 +30112,25 @@ namespace tMax14ReportClassLibrary {
                         string ALTNOT, 
                         string FOOTER, 
                         byte[] LEFTIMAGE, 
-                        byte[] RIGHTIMAGE, 
-                        string CNTNO) {
+                        byte[] RIGHTIMAGE) {
                 RPR_INTRow rowRPR_INTRow = ((RPR_INTRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         HID,
+                        HEXD,
                         MID,
                         OPSKIM,
                         HSHP,
-                        HLUADR,
+                        HCNE,
                         EOH,
+                        CNTNO,
                         DEPO,
+                        TOPS,
+                        TOS,
+                        B_PRTNO,
+                        B_SITENO,
+                        B_CCC,
+                        B_SNDINFO,
+                        B_RCVINFO,
                         MPOL,
                         EMAILS,
                         EMAILSUBJECT,
@@ -29979,8 +30139,7 @@ namespace tMax14ReportClassLibrary {
                         ALTNOT,
                         FOOTER,
                         LEFTIMAGE,
-                        RIGHTIMAGE,
-                        CNTNO};
+                        RIGHTIMAGE};
                 rowRPR_INTRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowRPR_INTRow);
                 return rowRPR_INTRow;
@@ -30004,12 +30163,21 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
                 this.columnHID = base.Columns["HID"];
+                this.columnHEXD = base.Columns["HEXD"];
                 this.columnMID = base.Columns["MID"];
                 this.columnOPSKIM = base.Columns["OPSKIM"];
                 this.columnHSHP = base.Columns["HSHP"];
-                this.columnHLUADR = base.Columns["HLUADR"];
+                this.columnHCNE = base.Columns["HCNE"];
                 this.columnEOH = base.Columns["EOH"];
+                this.columnCNTNO = base.Columns["CNTNO"];
                 this.columnDEPO = base.Columns["DEPO"];
+                this.columnTOPS = base.Columns["TOPS"];
+                this.columnTOS = base.Columns["TOS"];
+                this.columnB_PRTNO = base.Columns["B_PRTNO"];
+                this.columnB_SITENO = base.Columns["B_SITENO"];
+                this.columnB_CCC = base.Columns["B_CCC"];
+                this.columnB_SNDINFO = base.Columns["B_SNDINFO"];
+                this.columnB_RCVINFO = base.Columns["B_RCVINFO"];
                 this.columnMPOL = base.Columns["MPOL"];
                 this.columnEMAILS = base.Columns["EMAILS"];
                 this.columnEMAILSUBJECT = base.Columns["EMAILSUBJECT"];
@@ -30019,7 +30187,6 @@ namespace tMax14ReportClassLibrary {
                 this.columnFOOTER = base.Columns["FOOTER"];
                 this.columnLEFTIMAGE = base.Columns["LEFTIMAGE"];
                 this.columnRIGHTIMAGE = base.Columns["RIGHTIMAGE"];
-                this.columnCNTNO = base.Columns["CNTNO"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -30027,18 +30194,36 @@ namespace tMax14ReportClassLibrary {
             private void InitClass() {
                 this.columnHID = new global::System.Data.DataColumn("HID", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHID);
+                this.columnHEXD = new global::System.Data.DataColumn("HEXD", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHEXD);
                 this.columnMID = new global::System.Data.DataColumn("MID", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnMID);
                 this.columnOPSKIM = new global::System.Data.DataColumn("OPSKIM", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnOPSKIM);
                 this.columnHSHP = new global::System.Data.DataColumn("HSHP", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnHSHP);
-                this.columnHLUADR = new global::System.Data.DataColumn("HLUADR", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnHLUADR);
+                this.columnHCNE = new global::System.Data.DataColumn("HCNE", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnHCNE);
                 this.columnEOH = new global::System.Data.DataColumn("EOH", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnEOH);
+                this.columnCNTNO = new global::System.Data.DataColumn("CNTNO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCNTNO);
                 this.columnDEPO = new global::System.Data.DataColumn("DEPO", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnDEPO);
+                this.columnTOPS = new global::System.Data.DataColumn("TOPS", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTOPS);
+                this.columnTOS = new global::System.Data.DataColumn("TOS", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTOS);
+                this.columnB_PRTNO = new global::System.Data.DataColumn("B_PRTNO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnB_PRTNO);
+                this.columnB_SITENO = new global::System.Data.DataColumn("B_SITENO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnB_SITENO);
+                this.columnB_CCC = new global::System.Data.DataColumn("B_CCC", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnB_CCC);
+                this.columnB_SNDINFO = new global::System.Data.DataColumn("B_SNDINFO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnB_SNDINFO);
+                this.columnB_RCVINFO = new global::System.Data.DataColumn("B_RCVINFO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnB_RCVINFO);
                 this.columnMPOL = new global::System.Data.DataColumn("MPOL", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnMPOL);
                 this.columnEMAILS = new global::System.Data.DataColumn("EMAILS", typeof(string), null, global::System.Data.MappingType.Element);
@@ -30057,12 +30242,18 @@ namespace tMax14ReportClassLibrary {
                 base.Columns.Add(this.columnLEFTIMAGE);
                 this.columnRIGHTIMAGE = new global::System.Data.DataColumn("RIGHTIMAGE", typeof(byte[]), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnRIGHTIMAGE);
-                this.columnCNTNO = new global::System.Data.DataColumn("CNTNO", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCNTNO);
                 this.columnOPSKIM.MaxLength = 40;
-                this.columnHSHP.MaxLength = 100;
-                this.columnHLUADR.MaxLength = 100;
+                this.columnHSHP.MaxLength = 2147483647;
+                this.columnHCNE.MaxLength = 2147483647;
+                this.columnCNTNO.MaxLength = 20;
                 this.columnDEPO.MaxLength = 100;
+                this.columnTOPS.MaxLength = 2147483647;
+                this.columnTOS.MaxLength = 100;
+                this.columnB_PRTNO.MaxLength = 40;
+                this.columnB_SITENO.MaxLength = 40;
+                this.columnB_CCC.MaxLength = 40;
+                this.columnB_SNDINFO.MaxLength = 40;
+                this.columnB_RCVINFO.MaxLength = 40;
                 this.columnMPOL.MaxLength = 80;
                 this.columnEMAILS.MaxLength = 2147483647;
                 this.columnEMAILSUBJECT.MaxLength = 80;
@@ -30070,7 +30261,6 @@ namespace tMax14ReportClassLibrary {
                 this.columnUSTNOT.MaxLength = 2147483647;
                 this.columnALTNOT.MaxLength = 2147483647;
                 this.columnFOOTER.MaxLength = 2147483647;
-                this.columnCNTNO.MaxLength = 20;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35371,6 +35561,38 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string OPSKIM {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.OPSKIMColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'OPSKIM\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.OPSKIMColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string TOAD {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.TOADColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TOAD\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.TOADColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string HREFNO {
                 get {
                     try {
@@ -35387,17 +35609,17 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string HSPR {
+            public string HSHP {
                 get {
                     try {
-                        return ((string)(this[this.tableRPR_POD.HSPRColumn]));
+                        return ((string)(this[this.tableRPR_POD.HSHPColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'HSPR\' in table \'RPR_POD\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'HSHP\' in table \'RPR_POD\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableRPR_POD.HSPRColumn] = value;
+                    this[this.tableRPR_POD.HSHPColumn] = value;
                 }
             }
             
@@ -35419,6 +35641,22 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string HDLV {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.HDLVColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'HDLV\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.HDLVColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public System.DateTime HPOD {
                 get {
                     try {
@@ -35435,6 +35673,22 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string HDTM {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.HDTMColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'HDTM\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.HDTMColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string HPODINF {
                 get {
                     try {
@@ -35446,6 +35700,118 @@ namespace tMax14ReportClassLibrary {
                 }
                 set {
                     this[this.tableRPR_POD.HPODINFColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public System.DateTime HAOH {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tableRPR_POD.HAOHColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'HAOH\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.HAOHColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string HGODINF {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.HGODINFColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'HGODINF\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.HGODINFColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string HTOPS {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.HTOPSColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'HTOPS\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.HTOPSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string HTOS {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.HTOSColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'HTOS\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.HTOSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string B_PRTNO {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.B_PRTNOColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'B_PRTNO\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.B_PRTNOColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string B_SITENO {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.B_SITENOColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'B_SITENO\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.B_SITENOColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string B_CCC {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.B_CCCColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'B_CCC\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.B_CCCColumn] = value;
                 }
             }
             
@@ -35494,6 +35860,22 @@ namespace tMax14ReportClassLibrary {
                 }
                 set {
                     this[this.tableRPR_POD.MATAColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string CNTNOS {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_POD.CNTNOSColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CNTNOS\' in table \'RPR_POD\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_POD.CNTNOSColumn] = value;
                 }
             }
             
@@ -35627,134 +36009,6 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string OPSKIM {
-                get {
-                    try {
-                        return ((string)(this[this.tableRPR_POD.OPSKIMColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'OPSKIM\' in table \'RPR_POD\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_POD.OPSKIMColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string HSHP {
-                get {
-                    try {
-                        return ((string)(this[this.tableRPR_POD.HSHPColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'HSHP\' in table \'RPR_POD\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_POD.HSHPColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string TOAD {
-                get {
-                    try {
-                        return ((string)(this[this.tableRPR_POD.TOADColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'TOAD\' in table \'RPR_POD\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_POD.TOADColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string HDLV {
-                get {
-                    try {
-                        return ((string)(this[this.tableRPR_POD.HDLVColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'HDLV\' in table \'RPR_POD\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_POD.HDLVColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public System.DateTime HAOH {
-                get {
-                    try {
-                        return ((global::System.DateTime)(this[this.tableRPR_POD.HAOHColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'HAOH\' in table \'RPR_POD\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_POD.HAOHColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string HGODINF {
-                get {
-                    try {
-                        return ((string)(this[this.tableRPR_POD.HGODINFColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'HGODINF\' in table \'RPR_POD\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_POD.HGODINFColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string CNTNOS {
-                get {
-                    try {
-                        return ((string)(this[this.tableRPR_POD.CNTNOSColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'CNTNOS\' in table \'RPR_POD\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_POD.CNTNOSColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string HDTM {
-                get {
-                    try {
-                        return ((string)(this[this.tableRPR_POD.HDTMColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'HDTM\' in table \'RPR_POD\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_POD.HDTMColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsHIDNull() {
                 return this.IsNull(this.tableRPR_POD.HIDColumn);
             }
@@ -35763,6 +36017,30 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetHIDNull() {
                 this[this.tableRPR_POD.HIDColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsOPSKIMNull() {
+                return this.IsNull(this.tableRPR_POD.OPSKIMColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetOPSKIMNull() {
+                this[this.tableRPR_POD.OPSKIMColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsTOADNull() {
+                return this.IsNull(this.tableRPR_POD.TOADColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetTOADNull() {
+                this[this.tableRPR_POD.TOADColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35779,14 +36057,14 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsHSPRNull() {
-                return this.IsNull(this.tableRPR_POD.HSPRColumn);
+            public bool IsHSHPNull() {
+                return this.IsNull(this.tableRPR_POD.HSHPColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetHSPRNull() {
-                this[this.tableRPR_POD.HSPRColumn] = global::System.Convert.DBNull;
+            public void SetHSHPNull() {
+                this[this.tableRPR_POD.HSHPColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35803,6 +36081,18 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsHDLVNull() {
+                return this.IsNull(this.tableRPR_POD.HDLVColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetHDLVNull() {
+                this[this.tableRPR_POD.HDLVColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsHPODNull() {
                 return this.IsNull(this.tableRPR_POD.HPODColumn);
             }
@@ -35815,6 +36105,18 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsHDTMNull() {
+                return this.IsNull(this.tableRPR_POD.HDTMColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetHDTMNull() {
+                this[this.tableRPR_POD.HDTMColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsHPODINFNull() {
                 return this.IsNull(this.tableRPR_POD.HPODINFColumn);
             }
@@ -35823,6 +36125,90 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetHPODINFNull() {
                 this[this.tableRPR_POD.HPODINFColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsHAOHNull() {
+                return this.IsNull(this.tableRPR_POD.HAOHColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetHAOHNull() {
+                this[this.tableRPR_POD.HAOHColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsHGODINFNull() {
+                return this.IsNull(this.tableRPR_POD.HGODINFColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetHGODINFNull() {
+                this[this.tableRPR_POD.HGODINFColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsHTOPSNull() {
+                return this.IsNull(this.tableRPR_POD.HTOPSColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetHTOPSNull() {
+                this[this.tableRPR_POD.HTOPSColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsHTOSNull() {
+                return this.IsNull(this.tableRPR_POD.HTOSColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetHTOSNull() {
+                this[this.tableRPR_POD.HTOSColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsB_PRTNONull() {
+                return this.IsNull(this.tableRPR_POD.B_PRTNOColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetB_PRTNONull() {
+                this[this.tableRPR_POD.B_PRTNOColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsB_SITENONull() {
+                return this.IsNull(this.tableRPR_POD.B_SITENOColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetB_SITENONull() {
+                this[this.tableRPR_POD.B_SITENOColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsB_CCCNull() {
+                return this.IsNull(this.tableRPR_POD.B_CCCColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetB_CCCNull() {
+                this[this.tableRPR_POD.B_CCCColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35859,6 +36245,18 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetMATANull() {
                 this[this.tableRPR_POD.MATAColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsCNTNOSNull() {
+                return this.IsNull(this.tableRPR_POD.CNTNOSColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetCNTNOSNull() {
+                this[this.tableRPR_POD.CNTNOSColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35955,102 +36353,6 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetRIGHTIMAGENull() {
                 this[this.tableRPR_POD.RIGHTIMAGEColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsOPSKIMNull() {
-                return this.IsNull(this.tableRPR_POD.OPSKIMColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetOPSKIMNull() {
-                this[this.tableRPR_POD.OPSKIMColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsHSHPNull() {
-                return this.IsNull(this.tableRPR_POD.HSHPColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetHSHPNull() {
-                this[this.tableRPR_POD.HSHPColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsTOADNull() {
-                return this.IsNull(this.tableRPR_POD.TOADColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetTOADNull() {
-                this[this.tableRPR_POD.TOADColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsHDLVNull() {
-                return this.IsNull(this.tableRPR_POD.HDLVColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetHDLVNull() {
-                this[this.tableRPR_POD.HDLVColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsHAOHNull() {
-                return this.IsNull(this.tableRPR_POD.HAOHColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetHAOHNull() {
-                this[this.tableRPR_POD.HAOHColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsHGODINFNull() {
-                return this.IsNull(this.tableRPR_POD.HGODINFColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetHGODINFNull() {
-                this[this.tableRPR_POD.HGODINFColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsCNTNOSNull() {
-                return this.IsNull(this.tableRPR_POD.CNTNOSColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetCNTNOSNull() {
-                this[this.tableRPR_POD.CNTNOSColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsHDTMNull() {
-                return this.IsNull(this.tableRPR_POD.HDTMColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetHDTMNull() {
-                this[this.tableRPR_POD.HDTMColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -61278,6 +61580,22 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public System.DateTime HEXD {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tableRPR_INT.HEXDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'HEXD\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.HEXDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public int MID {
                 get {
                     try {
@@ -61326,17 +61644,17 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string HLUADR {
+            public string HCNE {
                 get {
                     try {
-                        return ((string)(this[this.tableRPR_INT.HLUADRColumn]));
+                        return ((string)(this[this.tableRPR_INT.HCNEColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'HLUADR\' in table \'RPR_INT\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'HCNE\' in table \'RPR_INT\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableRPR_INT.HLUADRColumn] = value;
+                    this[this.tableRPR_INT.HCNEColumn] = value;
                 }
             }
             
@@ -61358,6 +61676,22 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string CNTNO {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_INT.CNTNOColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'CNTNO\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.CNTNOColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string DEPO {
                 get {
                     try {
@@ -61369,6 +61703,118 @@ namespace tMax14ReportClassLibrary {
                 }
                 set {
                     this[this.tableRPR_INT.DEPOColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string TOPS {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_INT.TOPSColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TOPS\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.TOPSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string TOS {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_INT.TOSColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TOS\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.TOSColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string B_PRTNO {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_INT.B_PRTNOColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'B_PRTNO\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.B_PRTNOColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string B_SITENO {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_INT.B_SITENOColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'B_SITENO\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.B_SITENOColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string B_CCC {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_INT.B_CCCColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'B_CCC\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.B_CCCColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string B_SNDINFO {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_INT.B_SNDINFOColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'B_SNDINFO\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.B_SNDINFOColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string B_RCVINFO {
+                get {
+                    try {
+                        return ((string)(this[this.tableRPR_INT.B_RCVINFOColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'B_RCVINFO\' in table \'RPR_INT\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableRPR_INT.B_RCVINFOColumn] = value;
                 }
             }
             
@@ -61518,22 +61964,6 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string CNTNO {
-                get {
-                    try {
-                        return ((string)(this[this.tableRPR_INT.CNTNOColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'CNTNO\' in table \'RPR_INT\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableRPR_INT.CNTNOColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsHIDNull() {
                 return this.IsNull(this.tableRPR_INT.HIDColumn);
             }
@@ -61542,6 +61972,18 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetHIDNull() {
                 this[this.tableRPR_INT.HIDColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsHEXDNull() {
+                return this.IsNull(this.tableRPR_INT.HEXDColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetHEXDNull() {
+                this[this.tableRPR_INT.HEXDColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -61582,14 +62024,14 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsHLUADRNull() {
-                return this.IsNull(this.tableRPR_INT.HLUADRColumn);
+            public bool IsHCNENull() {
+                return this.IsNull(this.tableRPR_INT.HCNEColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetHLUADRNull() {
-                this[this.tableRPR_INT.HLUADRColumn] = global::System.Convert.DBNull;
+            public void SetHCNENull() {
+                this[this.tableRPR_INT.HCNEColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -61606,6 +62048,18 @@ namespace tMax14ReportClassLibrary {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsCNTNONull() {
+                return this.IsNull(this.tableRPR_INT.CNTNOColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetCNTNONull() {
+                this[this.tableRPR_INT.CNTNOColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsDEPONull() {
                 return this.IsNull(this.tableRPR_INT.DEPOColumn);
             }
@@ -61614,6 +62068,90 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetDEPONull() {
                 this[this.tableRPR_INT.DEPOColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsTOPSNull() {
+                return this.IsNull(this.tableRPR_INT.TOPSColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetTOPSNull() {
+                this[this.tableRPR_INT.TOPSColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsTOSNull() {
+                return this.IsNull(this.tableRPR_INT.TOSColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetTOSNull() {
+                this[this.tableRPR_INT.TOSColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsB_PRTNONull() {
+                return this.IsNull(this.tableRPR_INT.B_PRTNOColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetB_PRTNONull() {
+                this[this.tableRPR_INT.B_PRTNOColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsB_SITENONull() {
+                return this.IsNull(this.tableRPR_INT.B_SITENOColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetB_SITENONull() {
+                this[this.tableRPR_INT.B_SITENOColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsB_CCCNull() {
+                return this.IsNull(this.tableRPR_INT.B_CCCColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetB_CCCNull() {
+                this[this.tableRPR_INT.B_CCCColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsB_SNDINFONull() {
+                return this.IsNull(this.tableRPR_INT.B_SNDINFOColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetB_SNDINFONull() {
+                this[this.tableRPR_INT.B_SNDINFOColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsB_RCVINFONull() {
+                return this.IsNull(this.tableRPR_INT.B_RCVINFOColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetB_RCVINFONull() {
+                this[this.tableRPR_INT.B_RCVINFOColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -61722,18 +62260,6 @@ namespace tMax14ReportClassLibrary {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetRIGHTIMAGENull() {
                 this[this.tableRPR_INT.RIGHTIMAGEColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsCNTNONull() {
-                return this.IsNull(this.tableRPR_INT.CNTNOColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetCNTNONull() {
-                this[this.tableRPR_INT.CNTNOColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -66856,14 +67382,26 @@ namespace tMax14ReportClassLibrary.ReportDataSetTableAdapters {
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "RPR_POD";
             tableMapping.ColumnMappings.Add("HID", "HID");
+            tableMapping.ColumnMappings.Add("OPSKIM", "OPSKIM");
+            tableMapping.ColumnMappings.Add("TOAD", "TOAD");
             tableMapping.ColumnMappings.Add("HREFNO", "HREFNO");
-            tableMapping.ColumnMappings.Add("HSPR", "HSPR");
+            tableMapping.ColumnMappings.Add("HSHP", "HSHP");
             tableMapping.ColumnMappings.Add("HCNE", "HCNE");
+            tableMapping.ColumnMappings.Add("HDLV", "HDLV");
             tableMapping.ColumnMappings.Add("HPOD", "HPOD");
+            tableMapping.ColumnMappings.Add("HDTM", "HDTM");
             tableMapping.ColumnMappings.Add("HPODINF", "HPODINF");
+            tableMapping.ColumnMappings.Add("HAOH", "HAOH");
+            tableMapping.ColumnMappings.Add("HGODINF", "HGODINF");
+            tableMapping.ColumnMappings.Add("HTOPS", "HTOPS");
+            tableMapping.ColumnMappings.Add("HTOS", "HTOS");
+            tableMapping.ColumnMappings.Add("B_PRTNO", "B_PRTNO");
+            tableMapping.ColumnMappings.Add("B_SITENO", "B_SITENO");
+            tableMapping.ColumnMappings.Add("B_CCC", "B_CCC");
             tableMapping.ColumnMappings.Add("MID", "MID");
             tableMapping.ColumnMappings.Add("MREFNO", "MREFNO");
             tableMapping.ColumnMappings.Add("MATA", "MATA");
+            tableMapping.ColumnMappings.Add("CNTNOS", "CNTNOS");
             tableMapping.ColumnMappings.Add("EMAILS", "EMAILS");
             tableMapping.ColumnMappings.Add("EMAILSUBJECT", "EMAILSUBJECT");
             tableMapping.ColumnMappings.Add("EMAILBODY", "EMAILBODY");
@@ -66872,14 +67410,6 @@ namespace tMax14ReportClassLibrary.ReportDataSetTableAdapters {
             tableMapping.ColumnMappings.Add("FOOTER", "FOOTER");
             tableMapping.ColumnMappings.Add("LEFTIMAGE", "LEFTIMAGE");
             tableMapping.ColumnMappings.Add("RIGHTIMAGE", "RIGHTIMAGE");
-            tableMapping.ColumnMappings.Add("OPSKIM", "OPSKIM");
-            tableMapping.ColumnMappings.Add("HSHP", "HSHP");
-            tableMapping.ColumnMappings.Add("TOAD", "TOAD");
-            tableMapping.ColumnMappings.Add("HDLV", "HDLV");
-            tableMapping.ColumnMappings.Add("HAOH", "HAOH");
-            tableMapping.ColumnMappings.Add("HGODINF", "HGODINF");
-            tableMapping.ColumnMappings.Add("CNTNOS", "CNTNOS");
-            tableMapping.ColumnMappings.Add("HDTM", "HDTM");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
@@ -75900,12 +76430,21 @@ namespace tMax14ReportClassLibrary.ReportDataSetTableAdapters {
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "RPR_INT";
             tableMapping.ColumnMappings.Add("HID", "HID");
+            tableMapping.ColumnMappings.Add("HEXD", "HEXD");
             tableMapping.ColumnMappings.Add("MID", "MID");
             tableMapping.ColumnMappings.Add("OPSKIM", "OPSKIM");
             tableMapping.ColumnMappings.Add("HSHP", "HSHP");
-            tableMapping.ColumnMappings.Add("HLUADR", "HLUADR");
+            tableMapping.ColumnMappings.Add("HCNE", "HCNE");
             tableMapping.ColumnMappings.Add("EOH", "EOH");
+            tableMapping.ColumnMappings.Add("CNTNO", "CNTNO");
             tableMapping.ColumnMappings.Add("DEPO", "DEPO");
+            tableMapping.ColumnMappings.Add("TOPS", "TOPS");
+            tableMapping.ColumnMappings.Add("TOS", "TOS");
+            tableMapping.ColumnMappings.Add("B_PRTNO", "B_PRTNO");
+            tableMapping.ColumnMappings.Add("B_SITENO", "B_SITENO");
+            tableMapping.ColumnMappings.Add("B_CCC", "B_CCC");
+            tableMapping.ColumnMappings.Add("B_SNDINFO", "B_SNDINFO");
+            tableMapping.ColumnMappings.Add("B_RCVINFO", "B_RCVINFO");
             tableMapping.ColumnMappings.Add("MPOL", "MPOL");
             tableMapping.ColumnMappings.Add("EMAILS", "EMAILS");
             tableMapping.ColumnMappings.Add("EMAILSUBJECT", "EMAILSUBJECT");
@@ -75915,7 +76454,6 @@ namespace tMax14ReportClassLibrary.ReportDataSetTableAdapters {
             tableMapping.ColumnMappings.Add("FOOTER", "FOOTER");
             tableMapping.ColumnMappings.Add("LEFTIMAGE", "LEFTIMAGE");
             tableMapping.ColumnMappings.Add("RIGHTIMAGE", "RIGHTIMAGE");
-            tableMapping.ColumnMappings.Add("CNTNO", "CNTNO");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
