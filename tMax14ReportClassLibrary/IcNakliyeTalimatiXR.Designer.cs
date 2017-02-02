@@ -301,7 +301,7 @@
 			this.xrLabel3.SizeF = new System.Drawing.SizeF(150F, 23.00001F);
 			this.xrLabel3.StylePriority.UseFont = false;
 			this.xrLabel3.StylePriority.UseTextAlignment = false;
-			this.xrLabel3.Text = "Göderici : ";
+			this.xrLabel3.Text = "Gönderici : ";
 			this.xrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
 			// 
 			// xrRichText3

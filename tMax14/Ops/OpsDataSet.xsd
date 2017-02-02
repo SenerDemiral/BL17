@@ -4,8 +4,8 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="1" FunctionsComponentName="OpsQueriesTableAdapter" GeneratorFunctionsComponentClassName="OpsQueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="OpsQueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BFL17.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionStringDoc" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionStringDoc (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BFL17.Properties.Settings.GlobalReference.Default.ConnectionStringDoc" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BL17.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionStringDoc" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionStringDoc (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BL17.Properties.Settings.GlobalReference.Default.ConnectionStringDoc" Provider="FirebirdSql.Data.FirebirdClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="OPOTableAdapter" GeneratorDataComponentClassName="OPOTableAdapter" Name="OPO" UserDataComponentName="OPOTableAdapter">
@@ -6517,12 +6517,12 @@
       <xs:field xpath="mstns:OPCCID" />
     </xs:unique>
   </xs:element>
-  <xs:annotation>
-    <xs:appinfo>
-      <msdata:Relationship name="OPOS_OPO" msdata:parent="OPO" msdata:child="OPOS" msdata:parentkey="OPOID" msdata:childkey="OPOID" msprop:Generator_UserChildTable="OPOS" msprop:Generator_ChildPropName="GetOPOSRows" msprop:Generator_UserRelationName="OPOS_OPO" msprop:Generator_ParentPropName="OPORow" msprop:Generator_RelationVarName="relationOPOS_OPO" msprop:Generator_UserParentTable="OPO" />
-      <msdata:Relationship name="OPH_OPM" msdata:parent="OPM" msdata:child="OPH" msdata:parentkey="OPMID" msdata:childkey="OPMID" msprop:Generator_UserChildTable="OPH" msprop:Generator_ChildPropName="GetOPHRows" msprop:Generator_UserRelationName="OPH_OPM" msprop:Generator_ParentPropName="OPMRow" msprop:Generator_RelationVarName="relationOPH_OPM" msprop:Generator_UserParentTable="OPM" />
-      <msdata:Relationship name="OPC_OPCC" msdata:parent="OPC" msdata:child="OPCC" msdata:parentkey="OPCID" msdata:childkey="OPCID" msprop:Generator_UserChildTable="OPCC" msprop:Generator_ChildPropName="GetOPCCRows" msprop:Generator_UserRelationName="OPC_OPCC" msprop:Generator_ParentPropName="OPCRow" msprop:Generator_RelationVarName="relationOPC_OPCC" msprop:Generator_UserParentTable="OPC" />
-      <msdata:Relationship name="OPMA_OPM" msdata:parent="OPM" msdata:child="OPMA" msdata:parentkey="OPMID" msdata:childkey="OPMID" msprop:Generator_UserChildTable="OPMA" msprop:Generator_ChildPropName="GetOPMARows" msprop:Generator_UserRelationName="OPMA_OPM" msprop:Generator_ParentPropName="OPMRow" msprop:Generator_RelationVarName="relationOPMA_OPM" msprop:Generator_UserParentTable="OPM" />
-    </xs:appinfo>
-  </xs:annotation>
+	<xs:annotation>
+		<xs:appinfo>
+			<msdata:Relationship name="OPOS_OPO" msdata:parent="OPO" msdata:child="OPOS" msdata:parentkey="OPOID" msdata:childkey="OPOID" msprop:Generator_UserChildTable="OPOS" msprop:Generator_ChildPropName="GetOPOSRows" msprop:Generator_UserRelationName="OPOS_OPO" msprop:Generator_ParentPropName="OPORow" msprop:Generator_RelationVarName="relationOPOS_OPO" msprop:Generator_UserParentTable="OPO" />
+			<msdata:Relationship name="OPH_OPM" msdata:parent="OPM" msdata:child="OPH" msdata:parentkey="OPMID" msdata:childkey="OPMID" msprop:Generator_UserChildTable="OPH" msprop:Generator_ChildPropName="GetOPHRows" msprop:Generator_UserRelationName="OPH_OPM" msprop:Generator_ParentPropName="OPMRow" msprop:Generator_RelationVarName="relationOPH_OPM" msprop:Generator_UserParentTable="OPM" />
+			<msdata:Relationship name="OPC_OPCC" msdata:parent="OPC" msdata:child="OPCC" msdata:parentkey="OPCID" msdata:childkey="OPCID" msprop:Generator_UserChildTable="OPCC" msprop:Generator_ChildPropName="GetOPCCRows" msprop:Generator_UserRelationName="OPC_OPCC" msprop:Generator_ParentPropName="OPCRow" msprop:Generator_RelationVarName="relationOPC_OPCC" msprop:Generator_UserParentTable="OPC" />
+			<msdata:Relationship name="OPMA_OPM" msdata:parent="OPM" msdata:child="OPMA" msdata:parentkey="OPMID" msdata:childkey="OPMID" msprop:Generator_UserChildTable="OPMA" msprop:Generator_ChildPropName="GetOPMARows" msprop:Generator_UserRelationName="OPMA_OPM" msprop:Generator_ParentPropName="OPMRow" msprop:Generator_RelationVarName="relationOPMA_OPM" msprop:Generator_UserParentTable="OPM" />
+		</xs:appinfo>
+	</xs:annotation>
 </xs:schema>

@@ -344,13 +344,13 @@ namespace BL17
                 nor += opstTableAdapter.Fill(this.mainDataSet.OPST);
                 nor += ahpTableAdapter.Fill(this.mainDataSet.AHP);
                 nor += avbtTableAdapter.Fill(this.mainDataSet.AVBT);
-                nor += otpTableAdapter.Fill(this.mainDataSet.OTP);
                 nor += akmTableAdapter.Fill(this.mainDataSet.AKM);
                 nor += afbtTableAdapter.Fill(this.mainDataSet.AFBT);
                 nor += rptTableAdapter.Fill(this.mainDataSet.RPT);
                 nor += kkesTableAdapter.Fill(this.mainDataSet.KKES);
+				nor += otpTableAdapter.Fill(this.mainDataSet.OTP);
 
-                Program.MF.stopSW("Lookup", nor);
+				Program.MF.stopSW("Lookup", nor);
                 return nor;
             }).ContinueWith((t) =>
             {

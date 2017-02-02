@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BFL17.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BL17.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PVT_2TableAdapter" GeneratorDataComponentClassName="PVT_2TableAdapter" Name="PVT_2" UserDataComponentName="PVT_2TableAdapter">
@@ -2871,9 +2871,9 @@
       <xs:field xpath="mstns:OPMID" />
     </xs:unique>
   </xs:element>
-  <xs:annotation>
-    <xs:appinfo>
-      <msdata:Relationship name="RPR_TRACING_RPR_TRACING_DTY" msdata:parent="RPR_TRACING" msdata:child="RPR_TRACING_DTY" msdata:parentkey="CRRID" msdata:childkey="CRRID" msprop:Generator_UserChildTable="RPR_TRACING_DTY" msprop:Generator_ChildPropName="GetRPR_TRACING_DTYRows" msprop:Generator_UserRelationName="RPR_TRACING_RPR_TRACING_DTY" msprop:Generator_RelationVarName="relationRPR_TRACING_RPR_TRACING_DTY" msprop:Generator_UserParentTable="RPR_TRACING" msprop:Generator_ParentPropName="RPR_TRACINGRow" />
-    </xs:appinfo>
-  </xs:annotation>
+	<xs:annotation>
+		<xs:appinfo>
+			<msdata:Relationship name="RPR_TRACING_RPR_TRACING_DTY" msdata:parent="RPR_TRACING" msdata:child="RPR_TRACING_DTY" msdata:parentkey="CRRID" msdata:childkey="CRRID" msprop:Generator_UserChildTable="RPR_TRACING_DTY" msprop:Generator_ChildPropName="GetRPR_TRACING_DTYRows" msprop:Generator_UserRelationName="RPR_TRACING_RPR_TRACING_DTY" msprop:Generator_ParentPropName="RPR_TRACINGRow" msprop:Generator_RelationVarName="relationRPR_TRACING_RPR_TRACING_DTY" msprop:Generator_UserParentTable="RPR_TRACING" />
+		</xs:appinfo>
+	</xs:annotation>
 </xs:schema>

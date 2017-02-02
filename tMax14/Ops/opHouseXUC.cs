@@ -1350,6 +1350,5 @@ namespace BL17.Ops
             rpti.put("AKTB", "OPH", OPHid, Program.USR, "F", "eMail");
             MailClass.MailReportTask(rpti, "Aktarma Bilgilendirme", rpr, rpr.eMails, rpr.eMailSubject, rpr.eMailBody, "");  // NoAttachment
         }
-
-    }
+	}
 }

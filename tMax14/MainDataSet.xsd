@@ -4,11 +4,11 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="4" FunctionsComponentName="MainQueriesTableAdapter" GeneratorFunctionsComponentClassName="MainQueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="MainQueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BFL17.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString2" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BFL17.Properties.Settings.GlobalReference.Default.ConnectionString2" Provider="FirebirdSql.Data.FirebirdClient" />
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString3" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BFL17.Properties.Settings.GlobalReference.Default.ConnectionString3" Provider="FirebirdSql.Data.FirebirdClient" />
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="tMax06ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="tMax06ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BFL17.Properties.Settings.GlobalReference.Default.tMax06ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionStringDoc" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionStringDoc (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BFL17.Properties.Settings.GlobalReference.Default.ConnectionStringDoc" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BL17.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString2" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BL17.Properties.Settings.GlobalReference.Default.ConnectionString2" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString3" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BL17.Properties.Settings.GlobalReference.Default.ConnectionString3" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="tMax06ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="tMax06ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BL17.Properties.Settings.GlobalReference.Default.tMax06ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionStringDoc" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionStringDoc (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BL17.Properties.Settings.GlobalReference.Default.ConnectionStringDoc" Provider="FirebirdSql.Data.FirebirdClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MNU_USRTableAdapter" GeneratorDataComponentClassName="MNU_USRTableAdapter" Name="MNU_USR" UserDataComponentName="MNU_USRTableAdapter">
@@ -315,80 +315,6 @@
               <Mapping SourceColumn="AD_I2" DataSetColumn="AD_I2" />
               <Mapping SourceColumn="AD_T" DataSetColumn="AD_T" />
               <Mapping SourceColumn="KDY" DataSetColumn="KDY" />
-            </Mappings>
-            <Sources />
-          </TableAdapter>
-          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="OTPTableAdapter" GeneratorDataComponentClassName="OTPTableAdapter" Name="OTP" UserDataComponentName="OTPTableAdapter">
-            <MainSource>
-              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="OTP" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
-                <DeleteCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>DELETE FROM "OTP" WHERE (("TOP" = @Original_TOP))</CommandText>
-                    <Parameters>
-                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TOP" Precision="0" Scale="0" Size="5" SourceColumn="TOP" SourceColumnNullMapping="false" SourceVersion="Original" />
-                    </Parameters>
-                  </DbCommand>
-                </DeleteCommand>
-                <InsertCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>INSERT INTO "OTP" ("TOP", "TUR", "AD", "VM3", "TARE", "PAYLOAD", "INFO", "BE", "BB", "BY", "KE", "KY") VALUES (@TOP, @TUR, @AD, @VM3, @TARE, @PAYLOAD, @INFO, @BE, @BB, @BY, @KE, @KY)</CommandText>
-                    <Parameters>
-                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TOP" Precision="0" Scale="0" Size="5" SourceColumn="TOP" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TUR" Precision="0" Scale="0" Size="1" SourceColumn="TUR" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@AD" Precision="0" Scale="0" Size="40" SourceColumn="AD" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@VM3" Precision="0" Scale="0" Size="4" SourceColumn="VM3" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@TARE" Precision="0" Scale="0" Size="4" SourceColumn="TARE" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@PAYLOAD" Precision="0" Scale="0" Size="4" SourceColumn="PAYLOAD" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@INFO" Precision="0" Scale="0" Size="80" SourceColumn="INFO" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BE" Precision="0" Scale="0" Size="4" SourceColumn="BE" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BB" Precision="0" Scale="0" Size="4" SourceColumn="BB" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BY" Precision="0" Scale="0" Size="4" SourceColumn="BY" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@KE" Precision="0" Scale="0" Size="4" SourceColumn="KE" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@KY" Precision="0" Scale="0" Size="4" SourceColumn="KY" SourceColumnNullMapping="false" SourceVersion="Current" />
-                    </Parameters>
-                  </DbCommand>
-                </InsertCommand>
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT * FROM OTP</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-                <UpdateCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>UPDATE "OTP" SET "TOP" = @TOP, "TUR" = @TUR, "AD" = @AD, "VM3" = @VM3, "TARE" = @TARE, "PAYLOAD" = @PAYLOAD, "INFO" = @INFO, "BE" = @BE, "BB" = @BB, "BY" = @BY, "KE" = @KE, "KY" = @KY WHERE (("TOP" = @Original_TOP))</CommandText>
-                    <Parameters>
-                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TOP" Precision="0" Scale="0" Size="5" SourceColumn="TOP" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TUR" Precision="0" Scale="0" Size="1" SourceColumn="TUR" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@AD" Precision="0" Scale="0" Size="40" SourceColumn="AD" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@VM3" Precision="0" Scale="0" Size="4" SourceColumn="VM3" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@TARE" Precision="0" Scale="0" Size="4" SourceColumn="TARE" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@PAYLOAD" Precision="0" Scale="0" Size="4" SourceColumn="PAYLOAD" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@INFO" Precision="0" Scale="0" Size="80" SourceColumn="INFO" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BE" Precision="0" Scale="0" Size="4" SourceColumn="BE" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BB" Precision="0" Scale="0" Size="4" SourceColumn="BB" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BY" Precision="0" Scale="0" Size="4" SourceColumn="BY" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@KE" Precision="0" Scale="0" Size="4" SourceColumn="KE" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@KY" Precision="0" Scale="0" Size="4" SourceColumn="KY" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TOP" Precision="0" Scale="0" Size="5" SourceColumn="TOP" SourceColumnNullMapping="false" SourceVersion="Original" />
-                    </Parameters>
-                  </DbCommand>
-                </UpdateCommand>
-              </DbSource>
-            </MainSource>
-            <Mappings>
-              <Mapping SourceColumn="TOP" DataSetColumn="TOP" />
-              <Mapping SourceColumn="AD" DataSetColumn="AD" />
-              <Mapping SourceColumn="VM3" DataSetColumn="VM3" />
-              <Mapping SourceColumn="INFO" DataSetColumn="INFO" />
-              <Mapping SourceColumn="TARE" DataSetColumn="TARE" />
-              <Mapping SourceColumn="PAYLOAD" DataSetColumn="PAYLOAD" />
-              <Mapping SourceColumn="TUR" DataSetColumn="TUR" />
-              <Mapping SourceColumn="BE" DataSetColumn="BE" />
-              <Mapping SourceColumn="BB" DataSetColumn="BB" />
-              <Mapping SourceColumn="BY" DataSetColumn="BY" />
-              <Mapping SourceColumn="KE" DataSetColumn="KE" />
-              <Mapping SourceColumn="KY" DataSetColumn="KY" />
             </Mappings>
             <Sources />
           </TableAdapter>
@@ -963,6 +889,80 @@ FROM         PRT</CommandText>
               <Mapping SourceColumn="CREDENTIALS_USER_PASSWORD" DataSetColumn="CREDENTIALS_USER_PASSWORD" />
               <Mapping SourceColumn="ENABLE_SSL" DataSetColumn="ENABLE_SSL" />
               <Mapping SourceColumn="PORT" DataSetColumn="PORT" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="OTPTableAdapter" GeneratorDataComponentClassName="OTPTableAdapter" Name="OTP" UserDataComponentName="OTPTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="OTP" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM "OTP" WHERE (("TOP" = @Original_TOP))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TOP" Precision="0" Scale="0" Size="5" SourceColumn="TOP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO "OTP" ("TOP", "TUR", "AD", "VM3", "TARE", "PAYLOAD", "INFO", "BE", "BB", "BY", "KE", "KY") VALUES (@TOP, @TUR, @AD, @VM3, @TARE, @PAYLOAD, @INFO, @BE, @BB, @BY, @KE, @KY)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TOP" Precision="0" Scale="0" Size="5" SourceColumn="TOP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TUR" Precision="0" Scale="0" Size="1" SourceColumn="TUR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@AD" Precision="0" Scale="0" Size="40" SourceColumn="AD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@VM3" Precision="0" Scale="0" Size="4" SourceColumn="VM3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@TARE" Precision="0" Scale="0" Size="4" SourceColumn="TARE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@PAYLOAD" Precision="0" Scale="0" Size="4" SourceColumn="PAYLOAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@INFO" Precision="0" Scale="0" Size="80" SourceColumn="INFO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BE" Precision="0" Scale="0" Size="4" SourceColumn="BE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BB" Precision="0" Scale="0" Size="4" SourceColumn="BB" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BY" Precision="0" Scale="0" Size="4" SourceColumn="BY" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@KE" Precision="0" Scale="0" Size="4" SourceColumn="KE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@KY" Precision="0" Scale="0" Size="4" SourceColumn="KY" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM OTP</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE "OTP" SET "TOP" = @TOP, "TUR" = @TUR, "AD" = @AD, "VM3" = @VM3, "TARE" = @TARE, "PAYLOAD" = @PAYLOAD, "INFO" = @INFO, "BE" = @BE, "BB" = @BB, "BY" = @BY, "KE" = @KE, "KY" = @KY WHERE (("TOP" = @Original_TOP))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TOP" Precision="0" Scale="0" Size="5" SourceColumn="TOP" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@TUR" Precision="0" Scale="0" Size="1" SourceColumn="TUR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@AD" Precision="0" Scale="0" Size="40" SourceColumn="AD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@VM3" Precision="0" Scale="0" Size="4" SourceColumn="VM3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@TARE" Precision="0" Scale="0" Size="4" SourceColumn="TARE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@PAYLOAD" Precision="0" Scale="0" Size="4" SourceColumn="PAYLOAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@INFO" Precision="0" Scale="0" Size="80" SourceColumn="INFO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BE" Precision="0" Scale="0" Size="4" SourceColumn="BE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BB" Precision="0" Scale="0" Size="4" SourceColumn="BB" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@BY" Precision="0" Scale="0" Size="4" SourceColumn="BY" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@KE" Precision="0" Scale="0" Size="4" SourceColumn="KE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@KY" Precision="0" Scale="0" Size="4" SourceColumn="KY" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_TOP" Precision="0" Scale="0" Size="5" SourceColumn="TOP" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TOP" DataSetColumn="TOP" />
+              <Mapping SourceColumn="TUR" DataSetColumn="TUR" />
+              <Mapping SourceColumn="AD" DataSetColumn="AD" />
+              <Mapping SourceColumn="VM3" DataSetColumn="VM3" />
+              <Mapping SourceColumn="TARE" DataSetColumn="TARE" />
+              <Mapping SourceColumn="PAYLOAD" DataSetColumn="PAYLOAD" />
+              <Mapping SourceColumn="INFO" DataSetColumn="INFO" />
+              <Mapping SourceColumn="BE" DataSetColumn="BE" />
+              <Mapping SourceColumn="BB" DataSetColumn="BB" />
+              <Mapping SourceColumn="BY" DataSetColumn="BY" />
+              <Mapping SourceColumn="KE" DataSetColumn="KE" />
+              <Mapping SourceColumn="KY" DataSetColumn="KY" />
             </Mappings>
             <Sources />
           </TableAdapter>
@@ -1599,48 +1599,6 @@ FROM         PRT</CommandText>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="KDY" msprop:Generator_ColumnVarNameInTable="columnKDY" msprop:Generator_ColumnPropNameInRow="KDY" msprop:Generator_ColumnPropNameInTable="KDYColumn" msprop:Generator_UserColumnName="KDY" type="xs:int" minOccurs="0" />
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="OTP" msprop:Generator_TableClassName="OTPDataTable" msprop:Generator_TableVarName="tableOTP" msprop:Generator_RowChangedName="OTPRowChanged" msprop:Generator_TablePropName="OTP" msprop:Generator_RowDeletingName="OTPRowDeleting" msprop:Generator_RowChangingName="OTPRowChanging" msprop:Generator_RowEvHandlerName="OTPRowChangeEventHandler" msprop:Generator_RowDeletedName="OTPRowDeleted" msprop:Generator_RowClassName="OTPRow" msprop:Generator_UserTableName="OTP" msprop:Generator_RowEvArgName="OTPRowChangeEvent">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="TOP" msprop:Generator_ColumnVarNameInTable="columnTOP" msprop:Generator_ColumnPropNameInRow="TOP" msprop:Generator_ColumnPropNameInTable="TOPColumn" msprop:Generator_UserColumnName="TOP">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:maxLength value="5" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
-              <xs:element name="AD" msprop:Generator_ColumnVarNameInTable="columnAD" msprop:Generator_ColumnPropNameInRow="AD" msprop:Generator_ColumnPropNameInTable="ADColumn" msprop:Generator_UserColumnName="AD" minOccurs="0">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:maxLength value="40" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
-              <xs:element name="VM3" msprop:Generator_ColumnVarNameInTable="columnVM3" msprop:Generator_ColumnPropNameInRow="VM3" msprop:Generator_ColumnPropNameInTable="VM3Column" msprop:Generator_UserColumnName="VM3" type="xs:decimal" minOccurs="0" />
-              <xs:element name="INFO" msprop:Generator_ColumnVarNameInTable="columnINFO" msprop:Generator_ColumnPropNameInRow="INFO" msprop:Generator_ColumnPropNameInTable="INFOColumn" msprop:Generator_UserColumnName="INFO" minOccurs="0">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:maxLength value="80" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
-              <xs:element name="TARE" msprop:Generator_ColumnVarNameInTable="columnTARE" msprop:Generator_ColumnPropNameInRow="TARE" msprop:Generator_ColumnPropNameInTable="TAREColumn" msprop:Generator_UserColumnName="TARE" type="xs:decimal" minOccurs="0" />
-              <xs:element name="PAYLOAD" msprop:Generator_ColumnVarNameInTable="columnPAYLOAD" msprop:Generator_ColumnPropNameInRow="PAYLOAD" msprop:Generator_ColumnPropNameInTable="PAYLOADColumn" msprop:Generator_UserColumnName="PAYLOAD" type="xs:decimal" minOccurs="0" />
-              <xs:element name="TUR" msprop:Generator_ColumnVarNameInTable="columnTUR" msprop:Generator_ColumnPropNameInRow="TUR" msprop:Generator_ColumnPropNameInTable="TURColumn" msprop:Generator_UserColumnName="TUR" minOccurs="0">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:maxLength value="1" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
-              <xs:element name="BE" msprop:Generator_ColumnVarNameInTable="columnBE" msprop:Generator_ColumnPropNameInRow="BE" msprop:Generator_ColumnPropNameInTable="BEColumn" msprop:Generator_UserColumnName="BE" type="xs:int" minOccurs="0" />
-              <xs:element name="BB" msprop:Generator_ColumnVarNameInTable="columnBB" msprop:Generator_ColumnPropNameInRow="BB" msprop:Generator_ColumnPropNameInTable="BBColumn" msprop:Generator_UserColumnName="BB" type="xs:int" minOccurs="0" />
-              <xs:element name="BY" msprop:Generator_ColumnVarNameInTable="columnBY" msprop:Generator_ColumnPropNameInRow="BY" msprop:Generator_ColumnPropNameInTable="BYColumn" msprop:Generator_UserColumnName="BY" type="xs:int" minOccurs="0" />
-              <xs:element name="KE" msprop:Generator_ColumnVarNameInTable="columnKE" msprop:Generator_ColumnPropNameInRow="KE" msprop:Generator_ColumnPropNameInTable="KEColumn" msprop:Generator_UserColumnName="KE" type="xs:int" minOccurs="0" />
-              <xs:element name="KY" msprop:Generator_ColumnVarNameInTable="columnKY" msprop:Generator_ColumnPropNameInRow="KY" msprop:Generator_ColumnPropNameInTable="KYColumn" msprop:Generator_UserColumnName="KY" type="xs:int" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -2485,6 +2443,48 @@ FROM         PRT</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="OTP" msprop:Generator_TableClassName="OTPDataTable" msprop:Generator_TableVarName="tableOTP" msprop:Generator_TablePropName="OTP" msprop:Generator_RowDeletingName="OTPRowDeleting" msprop:Generator_RowChangingName="OTPRowChanging" msprop:Generator_RowEvHandlerName="OTPRowChangeEventHandler" msprop:Generator_RowDeletedName="OTPRowDeleted" msprop:Generator_UserTableName="OTP" msprop:Generator_RowChangedName="OTPRowChanged" msprop:Generator_RowEvArgName="OTPRowChangeEvent" msprop:Generator_RowClassName="OTPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TOP" msprop:Generator_ColumnVarNameInTable="columnTOP" msprop:Generator_ColumnPropNameInRow="TOP" msprop:Generator_ColumnPropNameInTable="TOPColumn" msprop:Generator_UserColumnName="TOP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TUR" msprop:Generator_ColumnVarNameInTable="columnTUR" msprop:Generator_ColumnPropNameInRow="TUR" msprop:Generator_ColumnPropNameInTable="TURColumn" msprop:Generator_UserColumnName="TUR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AD" msprop:Generator_ColumnVarNameInTable="columnAD" msprop:Generator_ColumnPropNameInRow="AD" msprop:Generator_ColumnPropNameInTable="ADColumn" msprop:Generator_UserColumnName="AD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VM3" msprop:Generator_ColumnVarNameInTable="columnVM3" msprop:Generator_ColumnPropNameInRow="VM3" msprop:Generator_ColumnPropNameInTable="VM3Column" msprop:Generator_UserColumnName="VM3" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TARE" msprop:Generator_ColumnVarNameInTable="columnTARE" msprop:Generator_ColumnPropNameInRow="TARE" msprop:Generator_ColumnPropNameInTable="TAREColumn" msprop:Generator_UserColumnName="TARE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PAYLOAD" msprop:Generator_ColumnVarNameInTable="columnPAYLOAD" msprop:Generator_ColumnPropNameInRow="PAYLOAD" msprop:Generator_ColumnPropNameInTable="PAYLOADColumn" msprop:Generator_UserColumnName="PAYLOAD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="INFO" msprop:Generator_ColumnVarNameInTable="columnINFO" msprop:Generator_ColumnPropNameInRow="INFO" msprop:Generator_ColumnPropNameInTable="INFOColumn" msprop:Generator_UserColumnName="INFO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BE" msprop:Generator_ColumnVarNameInTable="columnBE" msprop:Generator_ColumnPropNameInRow="BE" msprop:Generator_ColumnPropNameInTable="BEColumn" msprop:Generator_UserColumnName="BE" type="xs:int" minOccurs="0" />
+              <xs:element name="BB" msprop:Generator_ColumnVarNameInTable="columnBB" msprop:Generator_ColumnPropNameInRow="BB" msprop:Generator_ColumnPropNameInTable="BBColumn" msprop:Generator_UserColumnName="BB" type="xs:int" minOccurs="0" />
+              <xs:element name="BY" msprop:Generator_ColumnVarNameInTable="columnBY" msprop:Generator_ColumnPropNameInRow="BY" msprop:Generator_ColumnPropNameInTable="BYColumn" msprop:Generator_UserColumnName="BY" type="xs:int" minOccurs="0" />
+              <xs:element name="KE" msprop:Generator_ColumnVarNameInTable="columnKE" msprop:Generator_ColumnPropNameInRow="KE" msprop:Generator_ColumnPropNameInTable="KEColumn" msprop:Generator_UserColumnName="KE" type="xs:int" minOccurs="0" />
+              <xs:element name="KY" msprop:Generator_ColumnVarNameInTable="columnKY" msprop:Generator_ColumnPropNameInRow="KY" msprop:Generator_ColumnPropNameInTable="KYColumn" msprop:Generator_UserColumnName="KY" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
     <xs:unique name="Constraint1" msdata:PrimaryKey="true">
@@ -2529,10 +2529,6 @@ FROM         PRT</CommandText>
     <xs:unique name="AHT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:AHT" />
       <xs:field xpath="mstns:AHTID" />
-    </xs:unique>
-    <xs:unique name="OTP_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//mstns:OTP" />
-      <xs:field xpath="mstns:TOP" />
     </xs:unique>
     <xs:unique name="UYT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:UYT" />
@@ -2587,6 +2583,10 @@ FROM         PRT</CommandText>
     <xs:unique name="KKES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:KKES" />
       <xs:field xpath="mstns:KKESID" />
+    </xs:unique>
+    <xs:unique name="OTP_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OTP" />
+      <xs:field xpath="mstns:TOP" />
     </xs:unique>
   </xs:element>
   <xs:annotation>
