@@ -14,9 +14,9 @@ namespace BL17.Genel
 {
 
 
-	public partial class GenelDataSet
-	{
-	}
+    public partial class GenelDataSet
+    {
+    }
 }
 namespace BL17.Genel {
     

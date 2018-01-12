@@ -180,7 +180,7 @@ namespace BL17.AccountRpr
             catch (Exception ex)
             {
                 row.SendStatu = (int)sendStatu.Gonderilemedi;
-                row.SendMsj = ex.Message;
+                row.SendMsj = $"{ex.Message} {ex.InnerException}";
             }
             
             

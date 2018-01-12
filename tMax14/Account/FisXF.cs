@@ -55,11 +55,11 @@ namespace BL17.Account
 
                 this.Validate();
                 this.avbBindingSource.EndEdit();
-                this.avbTableAdapter.Save(this.accountDataSet.AVB);
-                //this.avbTableAdapter.Update(this.accountDataSet.AVB);
+                //this.avbTableAdapter.Save(this.accountDataSet.AVB);     !!Save Kullanma 5.9.1 de hata geliyor
+                this.avbTableAdapter.Update(this.accountDataSet.AVB);
 
-                //if (AVBid != null)
-                //    this.avbTableAdapter.Fill(this.accountDataSet.AVB, string.Format("AVBid = {0}", AVBid), "");
+                if (AVBid != null)
+                    this.avbTableAdapter.Fill(this.accountDataSet.AVB, string.Format("AVBid = {0}", AVBid), Program.USR);
             }
             catch (Exception e)
             {

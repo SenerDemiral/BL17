@@ -2,41 +2,41 @@
 {
 
 
-	public partial class AccountDataSet
-	{
+    public partial class AccountDataSet
+    {
 
-		partial class ACSDataTable
-		{
-		}
+        partial class ACSDataTable
+        {
+        }
 
-		partial class AHTDataTable
-		{
-		}
+        partial class AHTDataTable
+        {
+        }
 
-		partial class AOD_SEL_KALANLARDataTable
-		{
-		}
+        partial class AOD_SEL_KALANLARDataTable
+        {
+        }
 
-		partial class AFBLDataTable
-		{
-		}
+        partial class AFBLDataTable
+        {
+        }
 
-		partial class AFDDataTable
-		{
-		}
+        partial class AFDDataTable
+        {
+        }
 
-		partial class AFBDataTable
-		{
-		}
+        partial class AFBDataTable
+        {
+        }
 
-		partial class DVZ_SELDataTable
-		{
-		}
+        partial class DVZ_SELDataTable
+        {
+        }
 
-		partial class AFB_REC_SELDataTable
-		{
-		}
-	}
+        partial class AFB_REC_SELDataTable
+        {
+        }
+    }
 }
 
 namespace BL17.Account.AccountDataSetTableAdapters

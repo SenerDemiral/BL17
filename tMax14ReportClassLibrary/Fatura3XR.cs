@@ -48,16 +48,15 @@ namespace tMax14ReportClassLibrary
             eMailSubject = reportDataSet.RPR_FATURA.Rows[0]["EMAILSUBJECT"].ToString();
             eMailBody = reportDataSet.RPR_FATURA.Rows[0]["EMAILBODY"].ToString();
 
-            if (Antet != "Antetli" && SMTP.FIRMA == "TUNASET")
+            //Faturaya basiliyorsa
+            if (Antet != "Antetli")
             {
-                TopMargin.HeightF = 50F; // 150F;
                 PageFooter.Visible = false;
-                Detail.HeightF = 1000F; // 1200F;
-
-                //xrLabelAdr.SizeF = new System.Drawing.SizeF(800F, 300F);
-                xrLabelTrh.LocationF = new PointF(1589.93F, 710F);//915
-                xrLabelRef.LocationF = new PointF(1351.81F, 775F);//975
+                Detail.HeightF = 1100F;
+                xrLabelTrh.LocationF = new PointF(1300F, 830F);
+                xrLabelRef.LocationF = new PointF(1300F, 880F);
             }
+
         }
 
     }

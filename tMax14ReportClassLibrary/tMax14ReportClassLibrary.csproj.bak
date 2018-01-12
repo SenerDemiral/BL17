@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>tMax14ReportClassLibrary</RootNamespace>
     <AssemblyName>tMax14ReportClassLibrary</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -53,33 +53,33 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v15.1.Core, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Data.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Images.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Office.v15.1.Core, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.PivotGrid.v15.1.Core, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.RichEdit.v15.1.Core, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Sparkline.v15.1.Core, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraCharts.v15.1.Wizard, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraCharts.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGauges.v15.1.Core, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Utils.v15.1.UI, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.DataAccess.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.DataAccess.v15.1.UI, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Xpo.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraReports.v15.1.Extensions, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraReports.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraRichEdit.v15.1, Version=15.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=4.5.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Program Files (x86)\FirebirdClient\Client4.5\net40\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    <Reference Include="DevExpress.Charts.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v15.1.Wizard, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.1.UI, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v15.1.UI, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1.Extensions, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=5.7.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL">
+      <HintPath>..\packages\FirebirdSql.Data.FirebirdClient.5.7.0\lib\net40-client\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -96,11 +96,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\OrtakClass.cs">
+      <Link>OrtakClass.cs</Link>
+    </Compile>
     <Compile Include="AcentaBeyanFormuXR.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="AcentaBeyanFormuXR.Designer.cs">
       <DependentUpon>AcentaBeyanFormuXR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AktarmaBilgilendirmeXR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AktarmaBilgilendirmeXR.Designer.cs">
+      <DependentUpon>AktarmaBilgilendirmeXR.cs</DependentUpon>
     </Compile>
     <Compile Include="BaBsMtkbtFrmXR.cs">
       <SubType>Component</SubType>
@@ -127,6 +136,24 @@
       <DependentUpon>CikisIhbariXR.cs</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="EcsRateRequestXR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EcsRateRequestXR.Designer.cs">
+      <DependentUpon>EcsRateRequestXR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HblXR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HblXR.Designer.cs">
+      <DependentUpon>HblXR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fatura32XR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Fatura32XR.Designer.cs">
+      <DependentUpon>Fatura32XR.cs</DependentUpon>
+    </Compile>
     <Compile Include="DmrgClaimXR.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -187,6 +214,24 @@
     <Compile Include="HawbXR.Designer.cs">
       <DependentUpon>HawbXR.cs</DependentUpon>
     </Compile>
+    <Compile Include="IcNakliyeBilgisiXR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IcNakliyeBilgisiXR.Designer.cs">
+      <DependentUpon>IcNakliyeBilgisiXR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IcNakliyeTalimatiXR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IcNakliyeTalimatiXR.Designer.cs">
+      <DependentUpon>IcNakliyeTalimatiXR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IhracatciGuvenlikFormuXR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IhracatciGuvenlikFormuXR.Designer.cs">
+      <DependentUpon>IhracatciGuvenlikFormuXR.cs</DependentUpon>
+    </Compile>
     <Compile Include="MawbXR.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -204,6 +249,12 @@
     </Compile>
     <Compile Include="MtbktXR.Designer.cs">
       <DependentUpon>MtbktXR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mtbkt_BaBsXR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Mtbkt_BaBsXR.Designer.cs">
+      <DependentUpon>Mtbkt_BaBsXR.cs</DependentUpon>
     </Compile>
     <Compile Include="OrdinoEtiketXR.cs">
       <SubType>Component</SubType>
@@ -248,7 +299,6 @@
     </Compile>
     <Compile Include="ReportDataSet.cs">
       <DependentUpon>ReportDataSet.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="ReportDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -338,6 +388,9 @@
     <EmbeddedResource Include="AcentaBeyanFormuXR.resx">
       <DependentUpon>AcentaBeyanFormuXR.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AktarmaBilgilendirmeXR.resx">
+      <DependentUpon>AktarmaBilgilendirmeXR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BaBsMtkbtFrmXR.resx">
       <DependentUpon>BaBsMtkbtFrmXR.cs</DependentUpon>
     </EmbeddedResource>
@@ -349,6 +402,16 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CikisIhbariXR.resx">
       <DependentUpon>CikisIhbariXR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EcsRateRequestXR.resx">
+      <DependentUpon>EcsRateRequestXR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HblXR.resx">
+      <DependentUpon>HblXR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fatura32XR.resx">
+      <DependentUpon>Fatura32XR.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="DmrgClaimXR.resx">
       <DependentUpon>DmrgClaimXR.cs</DependentUpon>
@@ -384,6 +447,15 @@
     <EmbeddedResource Include="HawbXR.resx">
       <DependentUpon>HawbXR.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IcNakliyeBilgisiXR.resx">
+      <DependentUpon>IcNakliyeBilgisiXR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IcNakliyeTalimatiXR.resx">
+      <DependentUpon>IcNakliyeTalimatiXR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IhracatciGuvenlikFormuXR.resx">
+      <DependentUpon>IhracatciGuvenlikFormuXR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MawbXR.resx">
       <DependentUpon>MawbXR.cs</DependentUpon>
     </EmbeddedResource>
@@ -392,6 +464,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MtbktXR.resx">
       <DependentUpon>MtbktXR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mtbkt_BaBsXR.resx">
+      <DependentUpon>Mtbkt_BaBsXR.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrdinoEtiketXR.resx">
       <DependentUpon>OrdinoEtiketXR.cs</DependentUpon>
@@ -456,8 +531,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

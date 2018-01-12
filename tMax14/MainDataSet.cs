@@ -2,10 +2,10 @@
 {
 
 
-	public partial class MainDataSet
-	{
-		partial class RPTDataTable
-		{
-		}
-	}
+    public partial class MainDataSet
+    {
+        partial class RPTDataTable
+        {
+        }
+    }
 }

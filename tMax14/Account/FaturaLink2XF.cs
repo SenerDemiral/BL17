@@ -56,7 +56,8 @@ namespace BL17.Account
             colEFTRb.ColumnEdit = Program.MF.TFrepositoryItemCheckEdit;
 
             chargeGridControl.ExternalRepository = Program.MF.mainPersistentRepository;
-            colFRTIDc.ColumnEdit = Program.MF.FRTrepositoryItemLookUpEdit;  //frtRepositoryItemSearchLookUpEdit;
+
+			colFRTIDc.ColumnEdit = Program.MF.FRTrepositoryItemLookUpEdit;  //frtRepositoryItemSearchLookUpEdit;
             colDKNFRTIDc.ColumnEdit = Program.MF.FRTrepositoryItemLookUpEdit;  //frtRepositoryItemSearchLookUpEdit;
             colDDVZc.ColumnEdit = Program.MF.DVTrepositoryItemLookUpEdit;
             colTURc.ColumnEdit = Program.MF.afbTurRepositoryItemLookUpEdit;
@@ -112,7 +113,8 @@ namespace BL17.Account
 
         private void FaturaLink2XF_Load(object sender, EventArgs e)
         {
-            Read();
+            //Program.MF.GridControlSettings(this.chargeGridControl);
+			Read();
         }
 
         private void afbGridView_PopupMenuShowing(object sender, PopupMenuShowingEventArgs e)
@@ -548,6 +550,8 @@ namespace BL17.Account
         private void chargeContextMenuStrip_Opening(object sender, CancelEventArgs e)
         {
             e.Cancel = !chargeGridView.IsDataRow(chargeGridView.FocusedRowHandle);
+			if(chargeGridView.GetFocusedRowCellValue("EDITABLE").ToString() == "F")
+				silToolStripMenuItem.Enabled = false;
         }
 
         private void afbGridView_DoubleClick(object sender, EventArgs e)
@@ -741,9 +745,20 @@ namespace BL17.Account
 
         }
 
+		private void silToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+            if (XtraMessageBox.Show("Bu kayıt silinecektir.!", "Delete Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                chargeGridView.DeleteRow(chargeGridView.FocusedRowHandle);
+
+                Kaydet();
+            }
+
+		}
 
 
-        /*
+
+		/*
         private void afbGridView_CustomDrawGroupRow(object sender, DevExpress.XtraGrid.Views.Base.RowObjectCustomDrawEventArgs e)
         {
             GridView view = sender as GridView;
@@ -813,5 +828,5 @@ namespace BL17.Account
         }
 
         */
-    }
+	}
 }

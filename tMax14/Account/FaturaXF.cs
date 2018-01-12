@@ -127,8 +127,34 @@ namespace BL17.Account
                 this.Validate();
                 this.afbBindingSource.EndEdit();
 
-                this.afbTableAdapter.Save(accountDataSet.AFB);
-                /*
+                //this.afbTableAdapter.Save(accountDataSet.AFB);
+
+                // Zaten her satirda i/u oluyor yani birden cok olmuyor arraya koymaya gerek yokki, neyse boyle kalsin simdilik. bir 4 sene daha
+                int[] afbId = new int[100];
+                int i = 0;
+
+                foreach (AccountDataSet.AFBRow row in accountDataSet.AFB.Rows)
+                {
+                    if (row.RowState == DataRowState.Modified)
+                    {
+                        afbId[i++] = row.AFBID;
+                        row.UPDUSR = Program.USR;
+                    }
+                    else if (row.RowState == DataRowState.Added)
+                    {
+                        afbId[i++] = row.AFBID;
+                        row.INSUSR = Program.USR;
+                    }
+                }
+                afbTableAdapter.Update(accountDataSet.AFB);
+
+                for (int j = 0; j < i; j++)
+                {
+                    if (afbId[j] != 0)
+                        afbTableAdapter.Fill(this.accountDataSet.AFB, string.Format("AFBid = {0}", afbId[j]), Program.USR); //Refresh
+                }
+
+                /* 4 sene sonra duzelttim!!!
                 AccountDataSet.AFBDataTable mdt = (AccountDataSet.AFBDataTable)accountDataSet.AFB.GetChanges(DataRowState.Modified | DataRowState.Added | DataRowState.Deleted);
                 if (mdt != null)
                 {
@@ -138,12 +164,12 @@ namespace BL17.Account
                         else if (row.RowState == DataRowState.Added)
                             row.INSUSR = Program.USR;
 
-                    this.afbTableAdapter.Update(accountDataSet.AFB);
+                    this.afbTableAdapter.Update(mdt);
                     
                     foreach (AccountDataSet.AFBRow row in mdt)
                     {
                         if (row.RowState != DataRowState.Deleted)
-                            this.afbTableAdapter.Fill(this.accountDataSet.AFB, string.Format("AFBid = {0}", row.AFBID), ""); //Refresh
+                            this.afbTableAdapter.Fill(this.accountDataSet.AFB, string.Format("AFBid = {0}", row.AFBID), Program.USR); //Refresh
                     }
                 }*/
             }
