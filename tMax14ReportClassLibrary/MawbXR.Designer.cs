@@ -41,6 +41,7 @@
             this.xrLabel43 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLine47 = new DevExpress.XtraReports.UI.XRLine();
             this.xrPanel1 = new DevExpress.XtraReports.UI.XRPanel();
+            this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrLabel118 = new DevExpress.XtraReports.UI.XRLabel();
             this.ISO = new DevExpress.XtraReports.Parameters.Parameter();
             this.xrLabel51 = new DevExpress.XtraReports.UI.XRLabel();
@@ -208,9 +209,8 @@
             this.antetli = new DevExpress.XtraReports.Parameters.Parameter();
             this.reportDataSet = new tMax14ReportClassLibrary.ReportDataSet();
             this.rprMAWBTableAdapter = new tMax14ReportClassLibrary.ReportDataSetTableAdapters.RPR_MAWBTableAdapter();
-            this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
-            ((System.ComponentModel.ISupportInitialize)(this.reportDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reportDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // xrLine34
@@ -520,6 +520,19 @@
             this.xrPanel1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrPanel1.Name = "xrPanel1";
             this.xrPanel1.SizeF = new System.Drawing.SizeF(1939.396F, 2740.108F);
+            // 
+            // xrRichText1
+            // 
+            this.xrRichText1.CanGrow = false;
+            this.xrRichText1.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+            new DevExpress.XtraReports.UI.XRBinding("Rtf", null, "RPR_MAWB.FOOTER")});
+            this.xrRichText1.Dpi = 254F;
+            this.xrRichText1.Font = new System.Drawing.Font("Tahoma", 8F);
+            this.xrRichText1.FormattingRules.Add(this.formattingRule1);
+            this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(978.3751F, 355.9167F);
+            this.xrRichText1.Name = "xrRichText1";
+            this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
+            this.xrRichText1.SizeF = new System.Drawing.SizeF(908.771F, 189.0209F);
             // 
             // xrLabel118
             // 
@@ -890,6 +903,7 @@
             this.xrLabel115.Dpi = 254F;
             this.xrLabel115.Font = new System.Drawing.Font("Tahoma", 9F);
             this.xrLabel115.LocationFloat = new DevExpress.Utils.PointFloat(962.1286F, 628.7188F);
+            this.xrLabel115.Multiline = true;
             this.xrLabel115.Name = "xrLabel115";
             this.xrLabel115.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
             this.xrLabel115.SizeF = new System.Drawing.SizeF(912.0712F, 107.3665F);
@@ -2474,19 +2488,6 @@
             // 
             this.rprMAWBTableAdapter.ClearBeforeFill = true;
             // 
-            // xrRichText1
-            // 
-            this.xrRichText1.CanGrow = false;
-            this.xrRichText1.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Rtf", null, "RPR_MAWB.FOOTER")});
-            this.xrRichText1.Dpi = 254F;
-            this.xrRichText1.Font = new System.Drawing.Font("Tahoma", 8F);
-            this.xrRichText1.FormattingRules.Add(this.formattingRule1);
-            this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(978.3751F, 355.9167F);
-            this.xrRichText1.Name = "xrRichText1";
-            this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
-            this.xrRichText1.SizeF = new System.Drawing.SizeF(908.771F, 189.0209F);
-            // 
             // MawbXR
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -2517,9 +2518,10 @@
             this.antetli,
             this.ISO});
             this.ReportUnit = DevExpress.XtraReports.UI.ReportUnit.TenthsOfAMillimeter;
-            this.Version = "15.1";
-            ((System.ComponentModel.ISupportInitialize)(this.reportDataSet)).EndInit();
+            this.SnapGridSize = 25F;
+            this.Version = "16.1";
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reportDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }

@@ -151,7 +151,7 @@
             // 
             // dateEdit1
             // 
-            this.dateEdit1.EditValue = new System.DateTime(2014, 12, 1, 0, 0, 0, 0);
+            this.dateEdit1.EditValue = new System.DateTime(2019, 11, 30, 0, 0, 0, 0);
             this.dateEdit1.Location = new System.Drawing.Point(60, 12);
             this.dateEdit1.Name = "dateEdit1";
             this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -471,7 +471,7 @@
             this.ClientSize = new System.Drawing.Size(1072, 585);
             this.Controls.Add(this.layoutControl1);
             this.Name = "EtaFtrXF";
-            this.Text = "EtaFtrXF";
+            this.Text = "DiaFtrXF";
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();

@@ -763,6 +763,7 @@
               <Mapping SourceColumn="ISAGN" DataSetColumn="ISAGN" />
               <Mapping SourceColumn="IMGFTRKASE" DataSetColumn="IMGFTRKASE" />
               <Mapping SourceColumn="ACIKLAMA" DataSetColumn="ACIKLAMA" />
+              <Mapping SourceColumn="INFO2" DataSetColumn="INFO2" />
             </Mappings>
             <Sources />
           </TableAdapter>
@@ -1932,6 +1933,7 @@
               <Mapping SourceColumn="FOOTER" DataSetColumn="FOOTER" />
               <Mapping SourceColumn="LEFTIMAGE" DataSetColumn="LEFTIMAGE" />
               <Mapping SourceColumn="RIGHTIMAGE" DataSetColumn="RIGHTIMAGE" />
+              <Mapping SourceColumn="REFNO" DataSetColumn="REFNO" />
             </Mappings>
             <Sources />
           </TableAdapter>
@@ -4978,6 +4980,13 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element name="INFO2" msprop:Generator_ColumnVarNameInTable="columnINFO2" msprop:Generator_ColumnPropNameInRow="INFO2" msprop:Generator_ColumnPropNameInTable="INFO2Column" msprop:Generator_UserColumnName="INFO2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -7802,6 +7811,13 @@
               </xs:element>
               <xs:element name="LEFTIMAGE" msprop:Generator_ColumnVarNameInTable="columnLEFTIMAGE" msprop:Generator_ColumnPropNameInRow="LEFTIMAGE" msprop:Generator_ColumnPropNameInTable="LEFTIMAGEColumn" msprop:Generator_UserColumnName="LEFTIMAGE" type="xs:base64Binary" minOccurs="0" />
               <xs:element name="RIGHTIMAGE" msprop:Generator_ColumnVarNameInTable="columnRIGHTIMAGE" msprop:Generator_ColumnPropNameInRow="RIGHTIMAGE" msprop:Generator_ColumnPropNameInTable="RIGHTIMAGEColumn" msprop:Generator_UserColumnName="RIGHTIMAGE" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="REFNO" msprop:Generator_ColumnVarNameInTable="columnREFNO" msprop:Generator_ColumnPropNameInRow="REFNO" msprop:Generator_ColumnPropNameInTable="REFNOColumn" msprop:Generator_UserColumnName="REFNO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>

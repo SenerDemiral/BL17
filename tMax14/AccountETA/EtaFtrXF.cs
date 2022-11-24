@@ -21,30 +21,19 @@ namespace BL17.AccountETA
         public EtaFtrXF()
         {
             InitializeComponent();
+
+            dateEdit1.EditValue = DateTime.Today;
+            dateEdit2.EditValue = DateTime.Today.AddDays(1);
         }
 
         private void fillSimpleButton_Click(object sender, EventArgs e)
         {
-            StringBuilder iQry = new StringBuilder();
-            try
-            {
-                if (string.IsNullOrEmpty(afbIDs))
-                    iQry.Append(string.Format("FtrTrh >= '{0:dd.MM.yyyy}' and FtrTrh < '{1:dd.MM.yyyy}'", dateEdit1.DateTime, dateEdit2.DateTime));
-                else
-                    iQry.Append(string.Format("AFBID in ({0})", afbIDs));
-
-
-                int nor = this.etaFtrTableAdapter.Fill(this.acccountEtaDataSet.ETA_FTR, iQry.ToString());
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
             sbXML.Clear();
             sbXML.AppendLine("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
-            sbXML.AppendLine("<FATURA xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">");
+            //sbXML.AppendLine("<FATURA xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">");
+            sbXML.AppendLine("<faturalar>");
 
+            int nor = this.etaFtrTableAdapter.Fill(this.acccountEtaDataSet.ETA_FTR, dateEdit1.DateTime, dateEdit2.DateTime);
             foreach (AcccountEtaDataSet.ETA_FTRRow row in this.acccountEtaDataSet.ETA_FTR.Rows)
             {
                 if (!row.IsXMLNull())
@@ -56,7 +45,7 @@ namespace BL17.AccountETA
                     xIDs.Append(row.AFBID);
                 }
             }
-            sbXML.Append("</FATURA>");
+            sbXML.Append("</faturalar>");
 
             //create a random temporary file with an .xml file extension
             var path = Path.GetTempPath();
@@ -75,11 +64,11 @@ namespace BL17.AccountETA
         {
             accountEtaQueriesTableAdapter.ETA_FTR_EXPORTED(xIDs.ToString());
 
-            System.IO.Directory.CreateDirectory(@"C:\tMax2ETA");    //Create Dir if not exists
-            string fileName = string.Format(@"C:\tMax2ETA\ETA-Fatura-{0:yyyy-MM-dd-HH-mm}.xml", DateTime.Now);
+            System.IO.Directory.CreateDirectory(@"C:\tMax2DIA");    //Create Dir if not exists
+            string fileName = string.Format(@"C:\tMax2DIA\DIA-Fatura-{0:yyyy-MM-dd-HH-mm}.xml", DateTime.Now);
 
             System.IO.File.WriteAllText(fileName, sbXML.ToString(), Encoding.UTF8);
-            XtraMessageBox.Show("Dosya: " + fileName, "Fatura Export ETA");
+            XtraMessageBox.Show("Dosya: " + fileName, "Fatura Export DIA");
         }
     }
 }

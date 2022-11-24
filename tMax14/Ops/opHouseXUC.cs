@@ -469,10 +469,16 @@ namespace BL17.Ops
             HAWBtoolStripMenuItem.Enabled = rptItem("HAWB", ROT, MOT);
             PSAtoolStripMenuItem.Enabled = rptItem("PSA", ROT, MOT);
             SAtoolStripMenuItem.Enabled = rptItem("SA", ROT, MOT);
-            if (ROT == "Z")
-                PODtoolStripMenuItem.Enabled = rptItem("POD", "I", "A");
-            else
+            if (ROT == "E" || ROT == "I")
                 PODtoolStripMenuItem.Enabled = rptItem("POD", ROT, MOT);
+            else
+                PODtoolStripMenuItem.Enabled = rptItem("POD", "I", "A");
+
+            //if (ROT == "Z")
+            //    PODtoolStripMenuItem.Enabled = rptItem("POD", "I", "A");
+            //else
+            //    PODtoolStripMenuItem.Enabled = rptItem("POD", ROT, MOT);
+
             FBLtoolStripMenuItem.Enabled = rptItem("FBL", ROT, MOT);
             FCRtoolStripMenuItem.Enabled = rptItem("FCR", ROT, MOT);
             CItoolStripMenuItem.Enabled = rptItem("CI", ROT, MOT);
