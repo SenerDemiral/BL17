@@ -49,6 +49,7 @@ namespace BL17.Ops
             colRTR.ColumnEdit = Program.MF.TSrepositoryItemDateEdit;
             colATR.ColumnEdit = Program.MF.TSrepositoryItemDateEdit;
             //colROC.ColumnEdit = Program.MF.TSrepositoryItemDateEdit;
+            colBRD.ColumnEdit = Program.MF.TSrepositoryItemDateEdit;
             colAOC.ColumnEdit = Program.MF.TSrepositoryItemDateEdit;
             colMATD.ColumnEdit = Program.MF.TSrepositoryItemDateEdit;
             colMATA.ColumnEdit = Program.MF.TSrepositoryItemDateEdit;
