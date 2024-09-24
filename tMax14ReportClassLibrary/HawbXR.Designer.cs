@@ -935,14 +935,15 @@
             this.xrLabel111.Dpi = 254F;
             this.xrLabel111.Font = new System.Drawing.Font("Tahoma", 14F);
             this.xrLabel111.FormattingRules.Add(this.formattingRule1);
-            this.xrLabel111.LocationFloat = new DevExpress.Utils.PointFloat(962.4791F, 188.4791F);
+            this.xrLabel111.LocationFloat = new DevExpress.Utils.PointFloat(962.4791F, 167.3124F);
+            this.xrLabel111.Multiline = true;
             this.xrLabel111.Name = "xrLabel111";
             this.xrLabel111.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254F);
-            this.xrLabel111.SizeF = new System.Drawing.SizeF(924.6676F, 88.20821F);
+            this.xrLabel111.SizeF = new System.Drawing.SizeF(924.6676F, 132.6582F);
             this.xrLabel111.StylePriority.UseBorders = false;
             this.xrLabel111.StylePriority.UseFont = false;
             this.xrLabel111.StylePriority.UseTextAlignment = false;
-            this.xrLabel111.Text = "IMPERIAL TURKEY LOJISTIK TICARET A.S.";
+            this.xrLabel111.Text = "BIOPHARMA LOGISTICS \r\nULUS.TAS.TIC. A.S.";
             this.xrLabel111.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // xrLabel110
@@ -1675,7 +1676,7 @@
             // 
             this.xrLabel51.Borders = DevExpress.XtraPrinting.BorderSide.None;
             this.xrLabel51.Dpi = 254F;
-            this.xrLabel51.Font = new System.Drawing.Font("Tahoma", 7F, System.Drawing.FontStyle.Bold);
+            this.xrLabel51.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.xrLabel51.FormattingRules.Add(this.formattingRule1);
             this.xrLabel51.LocationFloat = new DevExpress.Utils.PointFloat(1075.479F, 378.9791F);
             this.xrLabel51.Multiline = true;
@@ -1684,8 +1685,8 @@
             this.xrLabel51.SizeF = new System.Drawing.SizeF(828.3333F, 153.8855F);
             this.xrLabel51.StylePriority.UseBorders = false;
             this.xrLabel51.StylePriority.UseFont = false;
-            this.xrLabel51.Text = "MASLAK MAH. AOS 55. SK. NO: 2 IC KAPI NO: 57\r\nSARIYER/ISTANBUL-TURKIYE\r\n+90 850 2" +
-    "55 99 90\r\ninfo@blturkey.com\r\nwww.blturkey.com";
+            this.xrLabel51.Text = "Oruçreis Mah. Vadi Cad. No:108 Istanbul Ticaret Sarayi Kat:7 No:426 Giyimkent, Es" +
+    "enler, Istanbul";
             // 
             // xrLabel53
             // 
