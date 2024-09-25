@@ -1686,7 +1686,7 @@
             this.xrLabel51.StylePriority.UseBorders = false;
             this.xrLabel51.StylePriority.UseFont = false;
             this.xrLabel51.Text = "Oruçreis Mah. Vadi Cad. No:108 Istanbul Ticaret Sarayi Kat:7 No:426 Giyimkent, Es" +
-    "enler, Istanbul";
+    "enler, Istanbul\r\nTel: 0212 438 06 55";
             // 
             // xrLabel53
             // 
